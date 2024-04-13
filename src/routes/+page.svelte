@@ -1,6 +1,5 @@
 <script>
-  import { Path } from "$env/static/private";
-  import Archive from "./archive.svelte";
+  import Archive from "./archive/+page.svelte";
 </script>
 
 <body>
@@ -14,7 +13,7 @@
     <!-- top info -->
     <div class="top_info">
       <p>
-        2024/2/24 (Sat) draw(tokyo);<br /><a href="./tokyo.svelte"
+        2024/2/24 (Sat) draw(tokyo);<br /><a href="./tokyo"
           ><p>Official Web Site</p>
           <img src="../../images/draw_cover.png" alt="draw-tokyo" />
         </a>
