@@ -5,7 +5,7 @@
 <body>
   <header>
     <!-- top logo -->
-    <img src="../../images/draw_logo.png" alt="logo" />
+    <img src="/images/draw_logo.png" alt="logo" />
   </header>
   <main>
     <div class="border"></div>
@@ -15,7 +15,7 @@
       <p>
         2024/2/24 (Sat) draw(tokyo);<br /><a href="./tokyo"
           ><p>Official Web Site</p>
-          <img src="../../images/draw_cover.png" alt="draw-tokyo" />
+          <img src="/images/draw_cover.png" alt="draw-tokyo" />
         </a>
       </p>
     </div>
@@ -57,11 +57,11 @@
     </div>
 
     <div class="border"></div>
-    <Archive path="../../images/draw-3-flyer.webp" />
+    <Archive path="images/draw-3-flyer.webp" />
     <div class="border"></div>
-    <Archive path="../../images/draw-2-flyer.png" />
+    <Archive path="/images/draw-2-flyer.png" />
     <div class="border"></div>
-    <Archive path="../../images/draw-1-flyer.png" />
+    <Archive path="/images/draw-1-flyer.png" />
     <div class="border"></div>
   </main>
 </body>

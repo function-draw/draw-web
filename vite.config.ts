@@ -6,7 +6,7 @@ export default defineConfig({
 
 	server: {
 		fs: {
-			allow: ["/draw/draw-web/images/", "/draw/draw-web/videos", "/draw/draw-web/src/routes/"]
+			allow: ["/draw/draw-web/src/routes/"]
 		}
 	}
 });
