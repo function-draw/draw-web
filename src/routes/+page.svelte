@@ -1,6 +1,68 @@
-<script>
+<script lang="ts">
+  // @ts-nocheck
+
   //import "../app.css";
   import Archive from "./archive/+page.svelte";
+
+  // documentがマウントされてから実行することを保証
+  import { onMount } from "svelte";
+
+  // アーカイブページ用の変数
+  class ArchiveContainer {
+    title: string;
+    actors: string[];
+    flyer: string;
+    records: string[];
+    movie: string;
+
+    constructor(title: title, actors: actors, flyer: fliyer, records: records, movie: movie){
+      this.title = title;
+      this.actors = actors;
+      this.flyer = flyer;
+      this.records = records;
+      this.movie = movie;
+    }
+  }
+  let archive1 = new ArchiveContainer(
+    "#1 - 2022/09/25",
+    ["RIKUPI-X × W0NYV", "ymg × uni101", "maguro × Saina"],
+    "./images/draw-1-flyer.png",
+    [
+      "./images/1/1_1.png",
+      "./images/1/1_2.png",
+      "./images/1/1_3.png",
+      "./images/1/1_4.png",
+    ],
+    ""
+  );
+  let archive2 = new ArchiveContainer(
+    "#2 - 2023/01/30",
+    ["yomo × Saina", "ymg × W0NYV", "moistpeace"],
+    "./images/draw-2-flyer.png",
+    [
+      "./images/2/2_1.png",
+      "./images/2/2_2.png",
+      "./images/2/2_3.png",
+      "./images/2/2_4.png",
+    ],
+    ""
+  );
+  let archive3 = new ArchiveContainer(
+    "#3 - 2023/08/06",
+    ["KAAS/Free × Syoronpo.", "RIKUPI-X × Saina B2B W0NYV", "Nyolfen × fotfla"],
+    "./images/draw-2-flyer.png",
+    [
+      "./images/3/3_1.webp",
+      "./images/3/3_2.webp",
+      "./images/3/3_3.webp",
+      "./images/3/3_4.webp",
+    ],
+    ""
+  );
+  let archives: ArchiveContent[] = [archive3, archive2, archive1];
+  
+  onMount(() => {
+  });
 </script>
 
 <body>
@@ -58,12 +120,19 @@
     </div>
 
     <div class="border"></div>
-    <Archive path="images/draw-3-flyer.webp" />
-    <div class="border"></div>
-    <Archive path="/images/draw-2-flyer.png" />
-    <div class="border"></div>
-    <Archive path="/images/draw-1-flyer.png" />
-    <div class="border"></div>
+
+    <div>
+      {#each archives as archive}
+        <Archive
+          title={archive.title}
+          actors={archive.actors}
+          fliyer={archive.fliyer}
+          records={archive.records}
+          movie={archive.movie}
+        />
+        <div class="border"></div>
+      {/each}
+    </div>
   </main>
 </body>
 
