@@ -4,15 +4,15 @@
     <ul>
       <li>
         <p>
-          <a href="#top"><img src="/images/draw_logo_tokyo.png" alt="logo" /></a
+          <a href=""><img src="/images/draw_logo_tokyo.png" alt="logo" /></a
           >
         </p>
       </li>
       <li>
-        <p><a href="#about"> ABOUT</a></p>
+        <p><a href=""> ABOUT</a></p>
       </li>
       <li>
-        <p><a href="#performer">PERFORMER</a></p>
+        <p><a href="">PERFORMER</a></p>
       </li>
       <li>
         <p><a href="../">draw(); WEBSITE</a></p>
