@@ -7,60 +7,6 @@
   // documentがマウントされてから実行することを保証
   import { onMount } from "svelte";
 
-  // アーカイブページ用の変数
-  class ArchiveContainer {
-    title: string;
-    actors: string[];
-    flyer: string;
-    records: string[];
-    movie: string;
-
-    constructor(title: title, actors: actors, flyer: fliyer, records: records, movie: movie){
-      this.title = title;
-      this.actors = actors;
-      this.flyer = flyer;
-      this.records = records;
-      this.movie = movie;
-    }
-  }
-  let archive1 = new ArchiveContainer(
-    "#1 - 2022/09/25",
-    ["RIKUPI-X × W0NYV", "ymg × uni101", "maguro × Saina"],
-    "./images/draw-1-flyer.png",
-    [
-      "./images/1/1_1.png",
-      "./images/1/1_2.png",
-      "./images/1/1_3.png",
-      "./images/1/1_4.png",
-    ],
-    ""
-  );
-  let archive2 = new ArchiveContainer(
-    "#2 - 2023/01/30",
-    ["yomo × Saina", "ymg × W0NYV", "moistpeace"],
-    "./images/draw-2-flyer.png",
-    [
-      "./images/2/2_1.png",
-      "./images/2/2_2.png",
-      "./images/2/2_3.png",
-      "./images/2/2_4.png",
-    ],
-    ""
-  );
-  let archive3 = new ArchiveContainer(
-    "#3 - 2023/08/06",
-    ["KAAS/Free × Syoronpo.", "RIKUPI-X × Saina B2B W0NYV", "Nyolfen × fotfla"],
-    "./images/draw-2-flyer.png",
-    [
-      "./images/3/3_1.webp",
-      "./images/3/3_2.webp",
-      "./images/3/3_3.webp",
-      "./images/3/3_4.webp",
-    ],
-    ""
-  );
-  let archives: ArchiveContent[] = [archive3, archive2, archive1];
-
   let left_links = [["Contact", ""], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
   let right_links = [["Archive", ""], ["#function_draw", ""], ["Youtube", ""]];
   let images = ["./images/image 11.png", "./images/image 10.png", "./images/image 12.png"];
@@ -99,17 +45,18 @@
     <!-- リンクとかがまとまってるところ -->
     <div class="content">
       <div class="frame">
-        <div id="top_links">
+        <img style="position: absolute" src="/images/Links Frame.png" alt="draw_logo">
+        <div id="topinfo">
           <img src="/images/draw_logo_2.png" alt="draw_logo">
-          <ul id="container">
+          <ul>
             {#each left_links as link}
               <li style="text-align: right">
-                <a class="link" href={link[1]}>{link[0]}↗</a>
+                <a href={link[1]}>{link[0]}↗</a>
               </li>
             {/each}
             {#each right_links as link}
               <li style="text-align: left">
-                <a class="link" href={link[1]}>{link[0]}↗</a>
+                <a href={link[1]}>{link[0]}↗</a>
               </li>
             {/each}
           </ul>
@@ -167,37 +114,33 @@
   }
 
   .frame {
+    position: relative;
     display: flex;
     height: 838px;
     column-gap: 118px;
   }
 
-  #top_links {
+  #topinfo {
+    z-index: 2;
     width: 713px;
+    text-align: center;
+    border: 2px solid #ff0000;
   }
 
-  #top_links img {
-    margin: auto;
-    display: block;
-    height: 253px;
-  }
-
-  #top_links #container {
-    margin: auto;
-    display: block;
-    padding: 0;
-    width: 660px;
+  #topinfo ul {
+    margin: 0;
+    padding-left: 2%;
     column-count: 2;
     column-gap: 100px;
     list-style: none;
   }
 
-  #top_links #container li {
+  #topinfo ul li {
     margin-bottom: 105px;
     width: 280px;
   }
 
-  #top_links #container li .link {
+  #topinfo ul li a {
     color: white;
 	  text-decoration: none;
     font-size: 32px;
