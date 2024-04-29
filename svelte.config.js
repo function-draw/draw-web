@@ -17,6 +17,11 @@ const config = {
 		// GitHub Pagesのサブディレクトリ対応
 		base: '/draw-web/',
 	},
+	vite: {
+		build: {
+		  outDir: 'root' // ビルドされたファイルの出力先ディレクトリをrootに変更
+		}
+	}
 };
 
 export default config;
