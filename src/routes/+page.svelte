@@ -103,16 +103,12 @@
           <img src="/images/draw_logo_2.png" alt="draw_logo">
           <ul id="container">
             {#each left_links as link}
-              <li style="
-                  text-align: right;
-                ">
+              <li style="text-align: right">
                 <a class="link" href={link[1]}>{link[0]}↗</a>
               </li>
             {/each}
             {#each right_links as link}
-              <li style="
-                  text-align: left;
-                ">
+              <li style="text-align: left">
                 <a class="link" href={link[1]}>{link[0]}↗</a>
               </li>
             {/each}
@@ -121,23 +117,13 @@
   
         <!-- 各回の絵がプレビューに出ているところ -->
         <div id="images">
-          <div name="container" style="
-                margin: 20px;
-              ">
-            <img style="
-              position: absolute;
-              right: 20px;
-              " 
-              src={images[0]} alt="image">
-            <img style="
-              position: absolute;
-              top: 296px;
-              "  src={images[1]}>
-            <img style="
-              position: absolute;
-              right: 20px;
-              bottom: 20px;
-              "  src={images[2]}> 
+          <div style="margin: 20px">
+            <img style="position: absolute; right: 20px;" 
+              src={images[0]} alt={"image"}>
+            <img style="position: absolute; top: 296px;"  
+              src={images[1]} alt={"image"}>
+            <img style="position: absolute; right: 20px; bottom: 20px;"
+              src={images[2]} alt={"image"}> 
           </div>
         </div>
       </div>
