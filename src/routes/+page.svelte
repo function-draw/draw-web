@@ -2,13 +2,15 @@
   // @ts-nocheck
 
   //import "../app.css";
+  import './default.css'
+
   import Archive from "./archive/+page.svelte";
 
   // documentがマウントされてから実行することを保証
   import { onMount } from "svelte";
 
   let left_links = [["Contact", ""], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
-  let right_links = [["Archive", ""], ["#function_draw", ""], ["Youtube", ""]];
+  let right_links = [["Archive", ""], ["#function_draw", "https://twitter.com/hashtag/function_draw?src=hashtag_click"], ["Youtube", ""]];
   let images = ["./images/image 11.png", "./images/image 10.png", "./images/image 12.png"];
   
   onMount(() => {
@@ -43,35 +45,34 @@
     <div class="margin"></div>
 
     <!-- リンクとかがまとまってるところ -->
-    <div class="content">
-      <div class="frame">
-        <img style="position: absolute" src="/images/Links Frame.png" alt="draw_logo">
-        <div id="topinfo">
-          <img src="/images/draw_logo_2.png" alt="draw_logo">
-          <ul>
-            {#each left_links as link}
-              <li style="text-align: right">
-                <a href={link[1]}>{link[0]}↗</a>
-              </li>
-            {/each}
-            {#each right_links as link}
-              <li style="text-align: left">
-                <a href={link[1]}>{link[0]}↗</a>
-              </li>
-            {/each}
-          </ul>
-        </div>
-  
-        <!-- 各回の絵がプレビューに出ているところ -->
-        <div id="images">
-          <div style="margin: 20px">
-            <img style="position: absolute; right: 20px;" 
-              src={images[0]} alt={"image"}>
-            <img style="position: absolute; top: 296px;"  
-              src={images[1]} alt={"image"}>
-            <img style="position: absolute; right: 20px; bottom: 20px;"
-              src={images[2]} alt={"image"}> 
-          </div>
+    <div class="frame">
+      <!-- 
+        <img style="position: absolute" src="./images/Links Frame.png" alt="draw_logo">
+      -->
+      <div id="topinfo">
+        <img style="width:100%" src="./images/draw_logo_2.png" alt="draw_logo">
+        <ul>
+          {#each left_links as link}
+            <li style="text-align: right">
+              <a href={link[1]}>{link[0]}↗</a>
+            </li>
+          {/each}
+          {#each right_links as link}
+            <li style="text-align: left">
+              <a href={link[1]}>{link[0]}↗</a>
+            </li>
+          {/each}
+        </ul>
+      </div>
+    </div>
+
+    <div class="frame">
+      <!-- 各回の絵がプレビューに出ているところ -->
+      <div id="images">
+        <div>
+          <img src={images[0]} alt={"image"}>
+          <img src={images[1]} alt={"image"}>
+          <img src={images[2]} alt={"image"}> 
         </div>
       </div>
     </div>
@@ -79,7 +80,7 @@
     <div class="margin"></div>
 
     <!-- About Draw -->
-    <div class="content">
+    <div class="frame">
       <div id="about">
         <h1 class="text_highlight">A<br>bout</h1>
         <p class="description">　draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。</p>
@@ -92,92 +93,3 @@
     </footer>
   </main>
 </body>
-
-<style>
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: 'Inter', sans-serif;
-  }
-
-  main {
-  }
-
-  .content {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 1405px;
-    border: 1px solid #FFFFFF;
-  }
-
-  .frame {
-    position: relative;
-    display: flex;
-    height: 838px;
-    column-gap: 118px;
-  }
-
-  #topinfo {
-    z-index: 2;
-    width: 713px;
-    text-align: center;
-    border: 2px solid #ff0000;
-  }
-
-  #topinfo ul {
-    margin: 0;
-    padding-left: 2%;
-    column-count: 2;
-    column-gap: 100px;
-    list-style: none;
-  }
-
-  #topinfo ul li {
-    margin-bottom: 105px;
-    width: 280px;
-  }
-
-  #topinfo ul li a {
-    color: white;
-	  text-decoration: none;
-    font-size: 32px;
-  }
-
-  #images {
-    position: relative;
-    width: 574px;
-    border: 1px solid #FFFFFF;
-  }
-
-  footer {
-    margin-top: 79px;
-    margin-bottom: 79px;
-    text-align: center;
-  }
-
-  .margin {
-    height: 158px;
-  }
-
-  #about {
-    margin: 158px;
-  }
-
-  .text_highlight {
-    margin: 0px;
-    height: 232px;
-    font-size: 96px;
-    font-weight: lighter;
-    line-height: 1.2em;
-  }
-
-  .description {
-    margin: 0px;
-    height: 352px;
-    font-size: 36px;
-    line-height: 1.2em;
-  }
-</style>
