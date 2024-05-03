@@ -44,12 +44,12 @@
   <main>
     <div class="margin"></div>
 
-    <!-- リンクとかがまとまってるところ -->
-    <div class="frame">
+    <div id="container">
+      <!-- リンクとかがまとまってるところ -->
       <!-- 
         <img style="position: absolute" src="./images/Links Frame.png" alt="draw_logo">
       -->
-      <div id="topinfo">
+      <div id="top">
         <img style="width:100%" src="./images/draw_logo_2.png" alt="draw_logo">
         <ul>
           {#each left_links as link}
@@ -64,15 +64,17 @@
           {/each}
         </ul>
       </div>
-    </div>
 
-    <div class="frame">
+      <div class="submargin"></div>
+
       <!-- 各回の絵がプレビューに出ているところ -->
       <div id="images">
-        <div>
-          <img src={images[0]} alt={"image"}>
-          <img src={images[1]} alt={"image"}>
-          <img src={images[2]} alt={"image"}> 
+        <div class="frame">
+          <div>
+            <img src={images[0]} alt={"image"}>
+            <img src={images[1]} alt={"image"}>
+            <img src={images[2]} alt={"image"}> 
+          </div>
         </div>
       </div>
     </div>
