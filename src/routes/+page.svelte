@@ -50,19 +50,22 @@
         <img style="position: absolute" src="./images/Links Frame.png" alt="draw_logo">
       -->
       <div id="top">
-        <img style="width:100%" src="./images/draw_logo_2.png" alt="draw_logo">
-        <ul>
-          {#each left_links as link}
-            <li style="text-align: right">
-              <a href={link[1]}>{link[0]}↗</a>
-            </li>
-          {/each}
-          {#each right_links as link}
-            <li style="text-align: left">
-              <a href={link[1]}>{link[0]}↗</a>
-            </li>
-          {/each}
-        </ul>
+        <img id="bg"  src="./images/topbg.png" alt="bg">
+        <div id="wrapper_links">
+          <img style="width:100%" src="./images/draw_logo.png" alt="draw_logo">
+          <ul>
+            {#each left_links as link}
+              <li style="text-align: right">
+                <a href={link[1]}>{link[0]}↗</a>
+              </li>
+            {/each}
+            {#each right_links as link}
+              <li style="text-align: left">
+                <a href={link[1]}>{link[0]}↗</a>
+              </li>
+            {/each}
+          </ul>
+        </div>
       </div>
 
       <div class="submargin"></div>
