@@ -4,7 +4,7 @@
     <ul>
       <li>
         <p>
-          <a href=""><img src="/images/draw_logo_tokyo.png" alt="logo" /></a
+          <a href=""><img src="./images/draw_logo_tokyo.png" alt="logo" /></a
           >
         </p>
       </li>
@@ -15,7 +15,7 @@
         <p><a href="">PERFORMER</a></p>
       </li>
       <li>
-        <p><a href="../">draw(); WEBSITE</a></p>
+        <p><a href="/">draw(); WEBSITE</a></p>
       </li>
     </ul>
   </div>
