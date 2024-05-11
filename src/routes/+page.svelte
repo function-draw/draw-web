@@ -14,7 +14,7 @@
   const images_pc = "./images/top/pc.png";
   const images_mobile = "./images/top/mobile.png";
 
-  const description = "draw(); とは、オーディオビジュアルを楽しむイベント。2022年9月に1回目のオンライン配信イベントが開催され、これまでにライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスが見受けられた。現在では、主にVRChat, Twitch でのオンライン配信イベントと現実でのライブイベントを開催している。";
+  const description = "　draw(); とは、オーディオビジュアルを楽しむイベント。2022年9月に1回目のオンライン配信イベントが開催され、これまでにライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスが見受けられた。現在では、主にVRChat, Twitch でのオンライン配信イベントと現実でのライブイベントを開催している。";
   
   onMount(() => {
   });
@@ -45,8 +45,6 @@
 
 <body>
   <main>
-    <div class="margin"></div>
-
     <div id="container">
       <!-- リンクとかがまとまってるところ -->
       <div id="top">

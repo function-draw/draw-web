@@ -49,6 +49,10 @@ main {
 	text-decoration: none;
 }
 
+#top ul li a:hover{
+	text-decoration: underline;
+}
+
 #images_pc .frame img {
 	width: 100%;
 }
@@ -84,6 +88,7 @@ footer {
 	#container {
 		display: flex;
 		column-gap: 118px;
+		margin-top: 2%;
 		height: fit-content;
 	}
 
@@ -126,8 +131,7 @@ footer {
 	}
 
 	footer {
-		margin-top: 158px;
-		margin-bottom: 158px;
+		margin-top: 75px;
 	}
 }
 
@@ -180,8 +184,7 @@ footer {
 	}
 
 	footer {
-		margin-top: 158px;
-		margin-bottom: 158px;
+		margin-top: 75px;
 	}
 }
 
@@ -191,11 +194,11 @@ footer {
 	}
 
 	.margin {
-		height: 118px;
+		height: 50px;
 	}
 
 	.submargin {
-		height: 118px;
+		height: 50px;
 	}
 
 	#top ul {
@@ -222,8 +225,8 @@ footer {
 		order: 1;
 		margin-right: 45px;
 		margin-left: 45px;
-		margin-top: 8.32px;
-		margin-bottom: 8.32px;
+		margin-top: 22.5px;
+		margin-bottom: 22.5px;
 	}
 
 	.text_highlight {
@@ -236,7 +239,6 @@ footer {
 	}
 
 	footer {
-		margin-top: 29px;
-		margin-bottom: 29px;
+		margin-top: 15px;
 	}
 }
