@@ -80,6 +80,7 @@ footer {
 
 	#container {
 		display: flex;
+		column-gap: 118px;
 	}
 
 	.frame {
@@ -88,10 +89,6 @@ footer {
 
 	.margin {
 		height: 158px;
-	}
-
-	.submargin {
-		width: 118px;
 	}
 
 	#top {
@@ -106,9 +103,13 @@ footer {
 		font-size: 32px;
 	}
 
-	#images {
+	#images_pc {
 		width: 574px;
 		height: 838px;
+	}
+
+	#images_mobile {
+		display: none;
 	}
 
 	#images div img:nth-child(1) {
@@ -174,7 +175,11 @@ footer {
 		font-size: 32px;
 	}
 
-	#images {
+	#images_pc {
+		display: none;
+	}
+
+	#images_mobile {
 		position: relative;
 		height: 838px;
 	}
@@ -245,6 +250,13 @@ footer {
 
 	#top ul li a {
 		font-size: clamp(12px, 3.5vw, 32px);
+	}
+
+	#images_pc {
+		display: none;
+	}
+
+	#images_mobile {
 	}
 
 	#about {

@@ -9,9 +9,11 @@
   // documentがマウントされてから実行することを保証
   import { onMount } from "svelte";
 
-  let left_links = [["Contact", ""], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
-  let right_links = [["Archive", ""], ["#function_draw", "https://twitter.com/hashtag/function_draw?src=hashtag_click"], ["Youtube", ""]];
-  let images = ["./images/image 11.png", "./images/image 10.png", "./images/image 12.png"];
+  const left_links = [["Contact", ""], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
+  const right_links = [["Archive", ""], ["#function_draw", "https://twitter.com/hashtag/function_draw?src=hashtag_click"], ["Youtube", ""]];
+  const images = ["./images/image 11.png", "./images/image 10.png", "./images/image 12.png"];
+
+  const description = "draw(); とは、オーディオビジュアルを楽しむイベント。2022年9月に1回目のオンライン配信イベントが開催され、これまでにライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスが見受けられた。現在では、主にVRChat, Twitch でのオンライン配信イベントと現実でのライブイベントを開催している。";
   
   onMount(() => {
   });
@@ -50,6 +52,7 @@
         <img style="position: absolute" src="./images/Links Frame.png" alt="draw_logo">
       -->
       <div id="top">
+        
         <img id="bg"  src="./images/topbg.png" alt="bg">
         <div id="wrapper_links">
           <img style="width:100%" src="./images/draw_logo.png" alt="draw_logo">
@@ -68,10 +71,8 @@
         </div>
       </div>
 
-      <div class="submargin"></div>
-
       <!-- 各回の絵がプレビューに出ているところ -->
-      <div id="images">
+      <div id="images_pc">
         <div class="frame">
           <div>
             <img src={images[0]} alt={"image"}>
@@ -88,7 +89,19 @@
     <div class="frame">
       <div id="about">
         <h1 class="text_highlight">A<br>bout</h1>
-        <p class="description">　draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。draw(); とは、オーディオとビジュアルを楽しみイベント。</p>
+        <p class="description">{description}</p>
+      </div>
+    </div>
+  
+    <!-- 各回の絵がプレビューに出ているところ -->
+    <div id="images_mobile">
+      <div class="margin"></div>
+      <div class="frame">
+        <div>
+          <img src={images[0]} alt={"image"}>
+          <img src={images[1]} alt={"image"}>
+          <img src={images[2]} alt={"image"}> 
+        </div>
       </div>
     </div>
 
