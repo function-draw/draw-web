@@ -11,7 +11,8 @@
 
   const left_links = [["Contact", ""], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
   const right_links = [["Archive", ""], ["#function_draw", "https://twitter.com/hashtag/function_draw?src=hashtag_click"], ["Youtube", ""]];
-  const images = ["./images/image 11.png", "./images/image 10.png", "./images/image 12.png"];
+  const images_pc = "./images/top/pc.png";
+  const images_mobile = "./images/top/mobile.png";
 
   const description = "draw(); とは、オーディオビジュアルを楽しむイベント。2022年9月に1回目のオンライン配信イベントが開催され、これまでにライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスが見受けられた。現在では、主にVRChat, Twitch でのオンライン配信イベントと現実でのライブイベントを開催している。";
   
@@ -71,14 +72,10 @@
         </div>
       </div>
 
-      <!-- 各回の絵がプレビューに出ているところ -->
+      <!-- 各回の絵がプレビューに出ているところ(PCサイズでのみ表示) -->
       <div id="images_pc">
         <div class="frame">
-          <div>
-            <img src={images[0]} alt={"image"}>
-            <img src={images[1]} alt={"image"}>
-            <img src={images[2]} alt={"image"}> 
-          </div>
+          <img src={images_pc} alt="images_pc">
         </div>
       </div>
     </div>
@@ -93,15 +90,19 @@
       </div>
     </div>
   
-    <!-- 各回の絵がプレビューに出ているところ -->
-    <div id="images_mobile">
+    <!-- 各回の絵がプレビューに出ているところ(tabletでのみ表示) -->
+    <div id="images_tablet">
       <div class="margin"></div>
       <div class="frame">
-        <div>
-          <img src={images[0]} alt={"image"}>
-          <img src={images[1]} alt={"image"}>
-          <img src={images[2]} alt={"image"}> 
-        </div>
+        <img src={images_pc} alt="images_tablet">
+      </div>
+    </div>
+  
+    <!-- 各回の絵がプレビューに出ているところ(smartphoneでのみ表示) -->
+    <div id="images_smartphone">
+      <div class="margin"></div>
+      <div class="frame">
+        <img src={images_mobile} alt="images_smartphone">
       </div>
     </div>
 
