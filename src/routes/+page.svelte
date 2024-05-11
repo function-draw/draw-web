@@ -1,16 +1,16 @@
 <script lang="ts">
   // @ts-nocheck
 
-  //import "../app.css";
   import './default.css'
 
   import Archive from "./archive/+page.svelte";
+  import Tokyo from "./tokyo/+page.svelte"
 
   // documentがマウントされてから実行することを保証
   import { onMount } from "svelte";
 
-  const left_links = [["Contact", ""], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
-  const right_links = [["Archive", ""], ["#function_draw", "https://twitter.com/hashtag/function_draw?src=hashtag_click"], ["Youtube", ""]];
+  const left_links = [["Contact", "https://forms.gle/Nqdaeocg3NoUBDVj9"], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
+  const right_links = [["Archive", "./tokyo"], ["#function_draw", "https://twitter.com/hashtag/function_draw?src=hashtag_click"], ["Youtube", "https://www.youtube.com/@function_draw"]];
   const images_pc = "./images/top/pc.png";
   const images_mobile = "./images/top/mobile.png";
 
@@ -49,11 +49,7 @@
 
     <div id="container">
       <!-- リンクとかがまとまってるところ -->
-      <!-- 
-        <img style="position: absolute" src="./images/Links Frame.png" alt="draw_logo">
-      -->
       <div id="top">
-        
         <img id="bg"  src="./images/topbg.png" alt="bg">
         <div id="wrapper_links">
           <img style="width:100%" src="./images/draw_logo.png" alt="draw_logo">
