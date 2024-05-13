@@ -139,7 +139,11 @@ footer {
 	main {
 		display:flex;
 		flex-direction: column;
-		width: 71%;
+		width: 838px;
+	}
+
+	#container {
+		margin-top: 5%;
 	}
 
 	.margin {
@@ -191,6 +195,10 @@ footer {
 @media (max-width: 960px) {
 	main {
 		width: 70%;
+	}
+
+	#container {
+		margin-top: 5%;
 	}
 
 	.margin {
