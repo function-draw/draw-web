@@ -53,6 +53,11 @@ main {
 	text-decoration: underline;
 }
 
+.icon_arrow {
+	filter: invert();
+	width: 10%;
+}
+
 #images_pc .frame img {
 	width: 100%;
 }
@@ -87,17 +92,13 @@ footer {
 
 	#container {
 		display: flex;
-		column-gap: 118px;
-		margin-top: 2%;
+		column-gap: 4%;
+		margin-top: 4%;
 		height: fit-content;
 	}
 
 	.margin {
 		height: 158px;
-	}
-
-	#top {
-		width: 713px;
 	}
 
 	#top ul {
@@ -106,6 +107,10 @@ footer {
 
 	#top ul li a {
 		font-size: 32px;
+	}
+
+	#images_pc {
+		width: 48%;
 	}
 
 	#images_tablet {
