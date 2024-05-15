@@ -3,14 +3,14 @@
 
   import './default.css'
 
-  import Archive from "./archive/+page.svelte";
+  import Archive from "./old/+page.svelte";
   import Tokyo from "./tokyo/+page.svelte"
 
   // documentがマウントされてから実行することを保証
   import { onMount } from "svelte";
 
   const left_links = [["Contact", "https://forms.gle/Nqdaeocg3NoUBDVj9"], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
-  const right_links = [["Archive", "./tokyo"], ["#function_draw", "https://twitter.com/hashtag/function_draw?src=hashtag_click"], ["Youtube", "https://www.youtube.com/@function_draw"]];
+  const right_links = [["Archive", "./archive"], ["#function_draw", "https://twitter.com/hashtag/function_draw?src=hashtag_click"], ["Youtube", "https://www.youtube.com/@function_draw"]];
   const images_pc = "./images/top/draw_web_pc.png";
   const images_mobile = "./images/top/draw_web_mobile.png";
 
