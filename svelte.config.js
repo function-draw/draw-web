@@ -20,7 +20,7 @@ const config = {
 	},
 	vite: {
 		build: {
-		  outDir: 'root' // ビルドされたファイルの出力先ディレクトリをrootに変更
+		  outDir: 'dist' // ビルドされたファイルの出力先ディレクトリをrootに変更
 		}
 	},
 	prerender: {
