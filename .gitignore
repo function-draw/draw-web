@@ -8,3 +8,10 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# ビルド用の環境設定ファイル
+# デプロイ時に開発用設定とデプロイ設定でぶつかる可能性があるのでignoreしておく
+# ビルド時にエラーが出た場合はこのファイルが無いか、内容がおかしいため以下のコマンドでファイルを生成する
+# npm install vite --save-dev
+package-lock.json
+package.json
