@@ -17,6 +17,7 @@ const config = {
 	paths: {
 		// GitHub Pagesのサブディレクトリ対応
 		base: process.env.NODE_ENV === 'production' ? /draw-web/ : '',
+		relative: false // ビルド時に間違ったパスが割り当てられる可能性があるため絶対パスを使うようにする
 	},
 	vite: {
 		build: {
