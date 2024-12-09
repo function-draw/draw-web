@@ -55,6 +55,8 @@
 </head>
 
 <main id="page_tokyo2">
+  <canvas class="canvas_bg"></canvas>
+
   <div class="top">
     <div class="black"></div>
     <div class="root_top">
@@ -74,7 +76,7 @@
       </div>
 
       <div class="img_parent">
-        <img src="../../../assets/images/kari2.png">
+        <img src="../../../assets/images/tokyo2/capture.png" alt="capture">
       </div>
 
     </div>
@@ -82,7 +84,10 @@
   
   <!-- Performer -->
   <div class="performer">
-    <p class="content_title">Performer</p>
+    <div class="content_top">
+      <p class="title">Performer</p>
+      <img src="../../../assets/images/tokyo2/box.png" alt="block" class="block">
+    </div>
     <div class="border"></div>
     <div class="description">
       <p>
@@ -137,7 +142,10 @@
 
   <!-- about -->
   <div id="location">
-    <p class="content_title">Location</p>
+    <div class="content_top">
+      <img src="../../../assets/images/tokyo2/box.png" alt="block" class="block">
+      <p class="title">Location</p>
+    </div>
     <div class="border"></div>
     <p class="location_text">CIRCUS TOKYO（東京 渋谷区）</p>
     <p class="day_text">

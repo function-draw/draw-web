@@ -13,6 +13,10 @@ html, body, #page_tokyo2 {
     padding: 0;
 }
 
+#page_tokyo2 .canvas_bg {
+    position: fixed;
+}
+
 #page_tokyo2 > .top {
     height: 100%;
     width: 100%;
@@ -72,6 +76,8 @@ html, body, #page_tokyo2 {
 
 #page_tokyo2 .img_parent > img {
     height: 90%;
+    width: 81%;
+    object-fit: cover;
 }
 
 #page_tokyo2 .performer {
@@ -117,15 +123,30 @@ html, body, #page_tokyo2 {
     font-size: 1.3em;
 }
 
-.content_title {
+#page_tokyo2 .content_top {
+    display: flex;
+}
+
+#page_tokyo2 .content_top .title {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 1%;
     font-size: 2.5em;
 }
 
-#page_tokyo2 .performer .content_title {
+#page_tokyo2 .performer .content_top .title {
     margin-left: 6%;
+}
+
+#page_tokyo2 .content_top .block  {
+    width: 4.2vh;
+    height: 4.2vh;
+    margin-top: 2vh;
+}
+
+#page_tokyo2 .performer .content_top .block  {
+    margin-left: 70%;
+    margin-right: 0;
 }
 
 #page_tokyo2 .performer .border, #location .border {
@@ -161,9 +182,14 @@ html, body, #page_tokyo2 {
     margin: 15% 0 8% 0;
 }
 
-#location .content_title {
-    text-align: right;
-    margin-right: 6%;
+#location .content_top .title  {
+    margin-left: 65%;
+}
+
+#location .content_top .block  {
+    margin-left: 7%;
+    margin-top: 2%;
+    transform: rotateY(3.142rad);
 }
 
 #location iframe {
@@ -225,6 +251,7 @@ a:visited {
 }
 
 .navi_map {
+    z-index: 1;
     border: 0;
 }
 
