@@ -55,12 +55,12 @@
 </head>
 
 <main id="page_tokyo2">
-  <div id="top">
+  <div class="top">
     <div class="black"></div>
-    <div id="root_top">
+    <div class="root_top">
 
-      <div id="title_parent">
-        <div id="title">
+      <div class="title_parent">
+        <div class="title">
           <img src="../../assets/images/draw_logo_tokyo.png" alt="logo"/>
           <h1>Audio/Visual Event "draw(tokyo); #2" at Shibuya 2025/3</h1>
         </div>
@@ -73,7 +73,7 @@
         </div>
       </div>
 
-      <div id="img_parent">
+      <div class="img_parent">
         <img src="../../../assets/images/kari2.png">
       </div>
 
@@ -81,7 +81,7 @@
   </div>
   
   <!-- Performer -->
-  <div id="performer">
+  <div class="performer">
     <p class="content_title">Performer</p>
     <div class="border"></div>
     <div class="description">
@@ -95,21 +95,21 @@
     <ul>
       <div>
         <p class="black_box">LIVE</p>
-        <p id="performer_text">
+        <p class="performer_text">
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set) <br>
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)
         </p>
       </div>
       <div>
         <p class="black_box">DJ</p>
-        <p id="performer_text">
+        <p class="performer_text">
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set) <br>
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)
         </p>
       </div>
       <div>
         <p class="black_box">VJ</p>
-        <p id="performer_text">
+        <p class="performer_text">
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set) <br>
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)
         </p>
@@ -119,14 +119,14 @@
     <ul>
       <div>
         <p class="black_box">DJ</p>
-        <p id="performer_text">
+        <p class="performer_text">
           とうふおさおい  とうふおさおい  とうふおさおい   とうふおさおい <br>
           とうふおさおい  とうふおさおい
         </p>
       </div>
       <div>
         <p class="black_box">VJ</p>
-        <p id="performer_text">
+        <p class="performer_text">
           とうふおさおい  とうふおさおい  とうふおさおい   とうふおさおい <br>
           とうふおさおい  とうふおさおい
         </p>
@@ -139,8 +139,8 @@
   <div id="location">
     <p class="content_title">Location</p>
     <div class="border"></div>
-    <p id="location_text">CIRCUS TOKYO（東京 渋谷区）</p>
-    <p id="day_text">
+    <p class="location_text">CIRCUS TOKYO（東京 渋谷区）</p>
+    <p class="day_text">
       日付：2024年2月24日（土曜日）<br>
       時間：14:00~20:00<br>
       ※演者、時間帯の変更等、可能性あり<br>
@@ -154,7 +154,7 @@
         />顔写真付き身分証明書を必ず持参ください。
       </p>
     </div>
-    <p id="map_text">MAP（周辺地図）</p>
+    <p class="map_text">MAP（周辺地図）</p>
     <iframe
       class="navi_map"
       title="navi_map"

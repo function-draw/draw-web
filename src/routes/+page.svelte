@@ -41,11 +41,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
 <main id="page_main">
-  <div id="container">
+  <div class="container">
     <!-- リンクとかがまとまってるところ -->
-    <div id="main_top">
-      <img id="bg"  src="../../assets/images/topbg.png" alt="bg">
-      <div id="wrapper_links">
+    <div class="top">
+      <img class="bg"  src="../../assets/images/topbg.png" alt="bg">
+      <div class="wrapper_links">
         <img style="width:100%" src="../../assets/images/draw_logo.png" alt="draw_logo">
         <ul>
           {#each left_links as link}
@@ -63,7 +63,7 @@
     </div>
 
     <!-- 各回の絵がプレビューに出ているところ(PCサイズでのみ表示) -->
-    <div id="images_pc">
+    <div class="images_pc">
       <div class="frame">
         <img src={images_pc} alt="images_pc">
       </div>
@@ -74,14 +74,14 @@
 
   <!-- About Draw -->
   <div class="frame">
-    <div id="about">
+    <div class="about">
       <h1 class="text_highlight">A<br>bout</h1>
       <p class="description">{description}</p>
     </div>
   </div>
 
   <!-- 各回の絵がプレビューに出ているところ(tabletでのみ表示) -->
-  <div id="images_tablet">
+  <div class="images_tablet">
     <div class="margin"></div>
     <div class="frame">
       <img src={images_pc} alt="images_tablet">
@@ -89,7 +89,7 @@
   </div>
 
   <!-- 各回の絵がプレビューに出ているところ(smartphoneでのみ表示) -->
-  <div id="images_smartphone">
+  <div class="images_smartphone">
     <div class="margin"></div>
     <div class="frame">
       <img src={images_mobile} alt="images_smartphone">

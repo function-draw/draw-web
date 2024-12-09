@@ -8,9 +8,9 @@
 
 <!-- header -->
 <body>
-  <div class="header">
+  <div id="header">
     <!-- left -->
-    <div id="left">
+    <div class="left">
       <img src="../../assets/images/draw_logo_tokyo.png" alt="logo" class="draw_logo"/>
       <p>about</p>
       <p>performer</p>
@@ -18,9 +18,9 @@
     </div>
       
     <!-- right -->
-    <div id="right">
+    <div class="right">
       <p><a href="/" class="draw_link">draw(); Website</a></p>
-      <div id="border"></div>
+      <div class="border"></div>
       <a href="https://twitter.com/function_draw" target="_blank"><img src="../../assets/images/sns_icons/X_logo_2023.svg" alt="draw-X-logo-2023"/></a>
       <a href="https://www.twitch.tv/function_draw" target="_blank"><img src="../../assets/images/sns_icons/TwitchGlitchWhite.svg" alt="twitch"/></a>
       <a href="https://draw-tokyo.peatix.com/" target="_blank"><img src="../../assets/images/sns_icons/ticket.png" alt="ticket"/></a>
