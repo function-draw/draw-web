@@ -1,0 +1,60 @@
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: black;
+    height: 10%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+  }
+
+  #left {
+    float: left;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #left > .draw_logo {
+    width: 22%;
+    padding-right: 7%;
+    margin: 0;
+  }
+
+  #left > p {
+    margin-right: 4%;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  #right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 3.5%;
+    padding-right: 3.5%;
+  }
+
+  #right > p {
+    font-size: 1.2em;
+  }
+
+  #right > a {
+    height: 33%;
+    margin-left: 3%;
+  }
+
+  #right > a > img {
+    height: 100%;
+  }
+
+  #border {
+    background: white;
+    width: 1px;
+    height: 40px;
+    margin-left: 4%;
+    margin-right: 2%;
+  }

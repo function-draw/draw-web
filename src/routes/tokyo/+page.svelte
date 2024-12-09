@@ -48,12 +48,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
-  <link rel="icon" href="./images/favicon.ico" />
-  <link rel="apple-touch-icon" href="./images/favicon.png" sizes="128x128" />
+  <link rel="icon" href="../../assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="../../assets/images/favicon.png" sizes="128x128" />
   <link
     rel="icon"
     type="image/png"
-    href="./images/favicon.png"
+    href="../../assets/images/favicon.png"
     sizes="128x128"
   />
   <link
@@ -89,11 +89,11 @@
 </head>
 
 <body>
-  <video id="video" src="./videos/drawtokyoback.mp4" autoplay loop muted></video>
+  <video id="video" src="../../assets/videos/drawtokyoback.mp4" autoplay loop muted></video>
   <div id="wrapper"></div>
   <div id="startView">
     <h1>
-      <img src="./images/draw_logo_tokyo.png" alt="draw-logo-tokyo" />
+      <img src="../../assets/images/draw_logo_tokyo.png" alt="draw-logo-tokyo" />
     </h1>
     <div class="description">
       <p>Audio/Visual Event <b>"draw();"</b> at Tokyo 2024/2</p>
@@ -102,7 +102,7 @@
           <p>
             <a href="https://twitter.com/function_draw" target="_blank"
               ><img
-                src="./images/sns_icons/X_logo_2023.svg"
+                src="../../assets/images/sns_icons/X_logo_2023.svg"
                 alt="draw-X-logo-2023"
               /><br />function_draw</a
             >
@@ -112,7 +112,7 @@
           <p>
             <a href="https://www.twitch.tv/function_draw" target="_blank"
               ><img
-                src="./images/sns_icons/TwitchGlitchWhite.svg"
+                src="../../assets/images/sns_icons/TwitchGlitchWhite.svg"
                 alt="twitch"
               /><br />function_draw</a
             >
@@ -121,9 +121,7 @@
         <li>
           <p class="ticket">
             <a href="https://draw-tokyo.peatix.com/" target="_blank"
-              ><img src="./images/sns_icons/ticket.png" alt="ticket" /><br
-              />ticket site</a
-            >
+              ><img src="../../assets/images/sns_icons/ticket.png" alt="ticket" /><br/>ticket site</a>
           </p>
         </li>
       </ul>
@@ -170,7 +168,7 @@
   </div>
   <footer>
     <p>
-      <img src="/images/draw_logo_tokyo.png" alt="draw-logo-tokyo" />
+      <img src="../../../assets/images/draw_logo_tokyo.png" alt="draw-logo-tokyo" />
     </p>
     <p>Copyright © draw(); All Rights Reserved.</p>
   </footer>

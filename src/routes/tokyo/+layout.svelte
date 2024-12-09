@@ -4,7 +4,7 @@
     <ul>
       <li>
         <p>
-          <a href=""><img src="./images/draw_logo_tokyo.png" alt="logo" /></a
+          <a href=""><img src="../../../assets/images/draw_logo_tokyo.png" alt="logo" /></a
           >
         </p>
       </li>
