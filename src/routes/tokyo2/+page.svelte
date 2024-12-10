@@ -62,11 +62,13 @@
   -->
   <div class="canvas_bg"></div>
 
-  <div class="top">
-    <div class="black"></div>
-    <div class="root_top">
+  <!-- Drawのロゴと説明、過去の記録画像を表示する領域 -->
+  <div class="root_top">
+    <!-- ここにclass=top_iniで未スクロール時の初期状態の要素を書く -->
 
-      <div class="title_parent">
+    <!-- スクロール後表示される領域 -->
+    <div class="top_main">
+      <div class="contents">
         <div class="title">
           <img src="../../assets/images/draw_logo_tokyo.png" alt="logo"/>
           <h1>Audio/Visual Event "draw(tokyo); #2" at Shibuya 2025/3</h1>
@@ -80,7 +82,8 @@
         </div>
       </div>
 
-      <div class="img_parent">
+      <!-- スマホなどでは横並びで表示する領域が足りなさそうなのでroot_topから外した方がいい？ -->
+      <div class="capture">
         <img src="../../../assets/images/tokyo2/capture.png" alt="capture">
       </div>
 
@@ -89,7 +92,7 @@
   
   <!-- Performer -->
   <div class="performer">
-    <div class="content_top">
+    <div class="root_content">
       <p class="title">Performer</p>
       <img src="../../../assets/images/tokyo2/box.png" alt="block" class="block">
     </div>
@@ -103,23 +106,23 @@
     </div>
     <p class="white_box">MainFloor</p>
     <ul>
-      <div>
+      <div class="content">
         <p class="black_box">LIVE</p>
-        <p class="performer_text">
+        <p class="text">
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set) <br>
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)
         </p>
       </div>
-      <div>
+      <div class="content">
         <p class="black_box">DJ</p>
-        <p class="performer_text">
+        <p class="text">
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set) <br>
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)
         </p>
       </div>
-      <div>
+      <div class="content">
         <p class="black_box">VJ</p>
-        <p class="performer_text">
+        <p class="text">
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set) <br>
           Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)
         </p>
@@ -127,16 +130,16 @@
     </ul>
     <p class="white_box">SubFloor</p>
     <ul>
-      <div>
+      <div class="content">
         <p class="black_box">DJ</p>
-        <p class="performer_text">
+        <p class="text">
           とうふおさおい  とうふおさおい  とうふおさおい   とうふおさおい <br>
           とうふおさおい  とうふおさおい
         </p>
       </div>
-      <div>
+      <div class="content">
         <p class="black_box">VJ</p>
-        <p class="performer_text">
+        <p class="text">
           とうふおさおい  とうふおさおい  とうふおさおい   とうふおさおい <br>
           とうふおさおい  とうふおさおい
         </p>
@@ -147,7 +150,7 @@
 
   <!-- about -->
   <div id="location">
-    <div class="content_top">
+    <div class="root_content">
       <img src="../../../assets/images/tokyo2/box.png" alt="block" class="block">
       <p class="title">Location</p>
     </div>
