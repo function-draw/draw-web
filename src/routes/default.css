@@ -10,7 +10,7 @@ body {
 	margin: 0 auto;
 }
 
-.frame {
+#page_main .frame {
 	border: 1px solid #ffffff;
 	height: 100%;
 }
@@ -70,17 +70,17 @@ body {
 	width: 100%;
 }
 
-footer {
+#page_main footer {
 	text-align: center;
 }
 
-.text_highlight {
+#page_main .text_highlight {
 	margin: 0px;
 	font-weight: lighter;
 	line-height: 1.2em;
 }
 
-.description {
+#page_main .description {
 	margin: 0px;
 	line-height: 1.2em;
 }
@@ -97,7 +97,7 @@ footer {
 		height: fit-content;
 	}
 
-	.margin {
+	#page_main .margin {
 		height: 158px;
 	}
 
@@ -129,17 +129,17 @@ footer {
 		margin: 158px;
 	}
 
-	.text_highlight {
+	#page_main .text_highlight {
 		font-size: 96px;
 		height: 232px;
 	}
 
-	.description {
+	#page_main .description {
 		height: 352px;
 		font-size: 40px;
 	}
 
-	footer {
+	#page_main footer {
 		margin-top: 75px;
 	}
 }
@@ -156,7 +156,7 @@ footer {
 		height: fit-content;
 	}
 
-	.margin {
+	#page_main .margin {
 		height: 158px;
 	}
 
@@ -184,17 +184,17 @@ footer {
 		margin: 158px;
 	}
 
-	.text_highlight {
+	#page_main .text_highlight {
 		font-size: 96px;
 		height: 232px;
 	}
 
-	.description {
+	#page_main .description {
 		height: 352px;
 		font-size: 36px;
 	}
 
-	footer {
+	#page_main footer {
 		margin-top: 75px;
 	}
 }
@@ -210,11 +210,11 @@ footer {
 		margin-top: 5%;
 	}
 
-	.margin {
+	#page_main .margin {
 		height: 118px;
 	}
 
-	.submargin {
+	#page_main .submargin {
 		height: 118px;
 	}
 
@@ -241,17 +241,17 @@ footer {
 		margin-bottom: 79px;
 	}
 
-	.text_highlight {
+	#page_main .text_highlight {
 		height: fit-content;
 		font-size: clamp(64px, 2.2vw, 96px);
 	}
 
-	.description {
+	#page_main .description {
 		font-size: 2.2vw;
 		height: fit-content;
 	}
 
-	footer {
+	#page_main footer {
 		margin-top: 75px;
 	}
 }
@@ -265,11 +265,11 @@ footer {
 		margin-top: 5%;
 	}
 
-	.margin {
+	#page_main .margin {
 		height: 50px;
 	}
 
-	.submargin {
+	#page_main .submargin {
 		height: 50px;
 	}
 
@@ -301,16 +301,16 @@ footer {
 		margin-bottom: 22.5px;
 	}
 
-	.text_highlight {
+	#page_main .text_highlight {
 		height: fit-content;
 	}
 
-	.description {
+	#page_main .description {
 		font-size: 2.3vw;
 		height: fit-content;
 	}
 
-	footer {
+	#page_main footer {
 		margin-top: 15px;
 	}
 }

@@ -55,7 +55,12 @@
 </head>
 
 <main id="page_tokyo2">
-  <canvas class="canvas_bg"></canvas>
+  <!-- 
+    divをcanvasに書き換えて, 
+    page.cssの#page_tokyo2 .canvas_bgのbackgroud-imageの行を消してください
+    to をにゅさん 
+  -->
+  <div class="canvas_bg"></div>
 
   <div class="top">
     <div class="black"></div>

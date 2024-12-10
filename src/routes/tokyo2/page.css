@@ -11,10 +11,15 @@ html, body, #page_tokyo2 {
 #page_tokyo2 {
     margin: 0;
     padding: 0;
+    position: absolute;
 }
 
 #page_tokyo2 .canvas_bg {
+    z-index: -1;
     position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/images/tokyo2/bg_sample.png");
 }
 
 #page_tokyo2 > .top {
@@ -53,13 +58,8 @@ html, body, #page_tokyo2 {
     font-size: 1.5em;
 }
 
-#page_tokyo2 .title_parent > .description {
-    height:50%;
-    width: 72%;
-    margin: 5% auto 14% 14%;
-}
-
 #page_tokyo2 .title_parent > .description > p {
+    margin: 5% auto 14% 14%;
     height: 100%;
     font-size: 1.18em;
     text-align: left;
@@ -102,7 +102,7 @@ html, body, #page_tokyo2 {
     line-height: 1.3em;
 }
 
-.white_box {
+#page_tokyo2 .white_box {
     width: 88%;
     color: black;
     background-color: #D9D9D9;
@@ -112,7 +112,7 @@ html, body, #page_tokyo2 {
     font-size: 1.8rem;
 }
 
-.black_box {
+#page_tokyo2 .black_box {
     width: 22.6%;
     border-color: white;
     border: 1px solid;
@@ -167,7 +167,7 @@ html, body, #page_tokyo2 {
     font-size: 1.2rem;
 }
 
-.time_table {
+#page_tokyo2 .time_table {
     font-size: 1em;
     margin-top: 2.5%;
     margin-bottom: 0%;
@@ -240,39 +240,29 @@ html, body, #page_tokyo2 {
     margin: 0 0 0 8%;
 }
 
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
 .navi_map {
     z-index: 1;
     border: 0;
 }
 
-footer {
+#page_tokyo2 footer {
     padding: 2% 0 0 0;
     background-color: black;
     text-align: center;
 }
 
-footer p {
+#page_tokyo2 footer p {
     margin: 0;
 }
 
-footer p:first-child {
+#page_tokyo2 footer p:first-child {
     margin-bottom: 1%;
 }
 
-footer p:first-child img {
+#page_tokyo2 footer p:first-child img {
     width: 8%;
 }
 
-footer p:last-child {
+#page_tokyo2 footer p:last-child {
     padding-bottom: 1%;
 }
