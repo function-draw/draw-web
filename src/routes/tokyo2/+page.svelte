@@ -82,8 +82,8 @@
         </div>
       </div>
 
-      <!-- スマホなどでは横並びで表示する領域が足りなさそうなのでroot_topから外した方がいい？ -->
-      <div class="capture">
+      <!-- スマホでは横並びで表示する領域が足りなさそうなので別要素として表示する? -->
+      <div class="capture_pc">
         <img src="../../../assets/images/tokyo2/capture.png" alt="capture">
       </div>
 
