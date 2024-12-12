@@ -1,6 +1,7 @@
 <script lang="ts">
   // @ts-nocheck
-  import './page.css'
+  import BgGfx from '$lib/tokyo2-bg-gfx.svelte';
+import './page.css'
   // documentがマウントされてから実行することを保証
   import { onMount } from "svelte";
 
@@ -58,10 +59,12 @@
     page.cssの#page_tokyo2 .canvas_bgのbackgroud-imageの行を消してください
     to をにゅさん 
   -->
-  <div class="canvas_bg"></div>
+  <!-- <canvas class="canvas_bg"></canvas> -->
+  <BgGfx />
 
   <!-- Drawのロゴと説明、過去の記録画像を表示する領域 -->
   <div class="root_top">
+
     <!-- ここにclass=top_iniで未スクロール時の初期状態の要素を書く -->
 
     <!-- スクロール後表示される領域 -->

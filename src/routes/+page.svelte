@@ -2,9 +2,7 @@
     // @ts-nocheck
   
     import './default.css'
-  
-    import Tokyo from "./tokyo2/+page.svelte"
-  
+    
     // documentがマウントされてから実行することを保証
     import { onMount } from "svelte";
   
