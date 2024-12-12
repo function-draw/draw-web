@@ -19,7 +19,7 @@ html, body, #page_tokyo2 {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-image: url("../../../assets/images/tokyo2/bg_sample.png");
+    /* background-image: url("../../../assets/images/tokyo2/bg_sample.png"); */
 }
 
 #page_tokyo2 > .root_top {
