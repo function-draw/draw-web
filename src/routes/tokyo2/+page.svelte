@@ -1,8 +1,10 @@
 <script lang="ts">
   // @ts-nocheck
   import BgGfx from '$lib/tokyo2-bg-gfx.svelte';
+  import Tokyo2t1 from '$lib/tokyo2-top-ini.svelte'
   import './page.css'
   import '../default.css'
+
   // documentがマウントされてから実行することを保証
   import { onMount } from "svelte";
 
@@ -64,6 +66,7 @@
   -->
   <!-- <canvas class="canvas_bg"></canvas> -->
   <BgGfx />
+  <Tokyo2t1 />
 
   <!-- Drawのロゴと説明、過去の記録画像を表示する領域 -->
   <div class="root_top">
