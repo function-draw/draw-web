@@ -7,15 +7,26 @@
 
     export let canvas: HTMLCanvasElement;
 
+    const getMobileOS = () => {
+        const ua = navigator.userAgent;
+        if (/android/i.test(ua)) {
+            return "Android";
+        }
+        else if ((/iPad|iPhone|iPod/.test(ua)) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)){
+            return "iOS";
+        }
+        return "Other";
+    }
+
     onMount(() => {
-        
+
         const scene = new THREE.Scene();
         const camera = new THREE.OrthographicCamera();
         const clock = new THREE.Clock();
 
         const getResolution = () => {            
-            let x = window.innerWidth < 800 ? 800 : window.innerWidth;
-            let y = window.innerHeight < 800 ? 800 : window.innerHeight;
+            let x = window.innerWidth < 1500 ? 1500 : window.innerWidth;
+            let y = window.innerHeight < 1200 ? 1200 : window.innerHeight;
 
             return new THREE.Vector2(x, y);
         }
@@ -98,4 +109,8 @@
     });
 </script>
 
+{#if getMobileOS() === "iOS"}
+<canvas class="canvas_bg_fallback"></canvas>
+{:else}
 <canvas class="canvas_bg" bind:this={canvas}></canvas>
+{/if}
