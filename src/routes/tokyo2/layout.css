@@ -16,16 +16,12 @@
   display: flex;
   justify-items: center;
   align-items: center;
-
-  transform: translateX(-32%);
 }
 
 #header .left > .draw_logo {
   width: 22%;
   padding-right: 7%;
   margin: 0;
-
-  opacity: 0;
 }
 
 #header .left > p {
