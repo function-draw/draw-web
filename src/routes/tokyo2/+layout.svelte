@@ -7,7 +7,7 @@
 </script>
 
 <!-- header -->
-<body>
+<div id="layout-tokyo2">
   <div id="header">
     <!-- left -->
     <div class="left">
@@ -26,12 +26,12 @@
       <a href="https://draw-tokyo.peatix.com/" target="_blank"><img src="../../assets/images/sns_icons/ticket.png" alt="ticket"/></a>
     </div>
   </div>
-</body> 
+</div> 
   
 <slot />
   
 <style>
-  body {
+  #layout-tokyo2 {
     margin: 0;
     padding: 0;
     color: white;
