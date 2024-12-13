@@ -1,7 +1,8 @@
 <script lang="ts">
   // @ts-nocheck
   import BgGfx from '$lib/tokyo2-bg-gfx.svelte';
-import './page.css'
+  import './page.css'
+  import '../default.css'
   // documentがマウントされてから実行することを保証
   import { onMount } from "svelte";
 
@@ -9,49 +10,51 @@ import './page.css'
   });
 </script>
 
-<meta charset="utf-8" />
-<title>draw(Tokyo);</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link rel="icon" href="../../../assets/images/favicon.ico" />
-<link rel="apple-touch-icon" href="../../../assets/images/favicon.png" sizes="128x128" />
-<link
-  rel="icon"
-  type="image/png"
-  href="../../../assets/images/favicon.png"
-  sizes="128x128"
-/>
-<link
-  href="https://fonts.googleapis.com/css?family=Roboto"
-  rel="stylesheet"
-/>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link
-  rel="preconnect"
-  href="https://fonts.gstatic.com"
-  crossorigin="anonymous"
-/>
-<link
-  href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=M+PLUS+1p&display=swap"
-  rel="stylesheet"
-/>
-<!-- OGP Settings -->
-<meta property="og:url" content="https://function-draw.com/tokyo" />
-<meta property="og:title" content="draw(Tokyo);" />
-<meta
-  property="og:description"
-  content="draw(Tokyo); は、VRChatで行われた&quot;draw();&quot;をリアル会場で開催するイベントです。draw();とは、オーディオビジュアルを楽しむイベントであり、ライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスを見ることができます。"
-/>
-<meta property="og:type" content="website" />
-<meta
-  property="og:image"
-  content="https://function-draw.com/images/draw_logo_tokyo_card.png"
-/>
-<meta property="og:image:width" content="512" />
-<meta property="og:image:height" content="512" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@function_draw" />
+<svelte:head>
+  <meta charset="utf-8" />
+  <title>draw(Tokyo);</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <link rel="icon" href="../../../assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="../../../assets/images/favicon.png" sizes="128x128" />
+  <link
+    rel="icon"
+    type="image/png"
+    href="../../../assets/images/favicon.png"
+    sizes="128x128"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=M+PLUS+1p&display=swap"
+    rel="stylesheet"
+  />
+  <!-- OGP Settings -->
+  <meta property="og:url" content="https://function-draw.com/tokyo" />
+  <meta property="og:title" content="draw(Tokyo);" />
+  <meta
+    property="og:description"
+    content="draw(Tokyo); は、VRChatで行われた&quot;draw();&quot;をリアル会場で開催するイベントです。draw();とは、オーディオビジュアルを楽しむイベントであり、ライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスを見ることができます。"
+  />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:image"
+    content="https://function-draw.com/images/draw_logo_tokyo_card.png"
+  />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@function_draw" />
+</svelte:head>
 
 <main id="page_tokyo2">
   <!-- 
