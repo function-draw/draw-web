@@ -16,7 +16,7 @@ const config = {
 	},
 	paths: {
 		// GitHub Pagesのサブディレクトリ対応
-		base: '',
+		base: '/',
 	},
 	vite: {
 		build: {
