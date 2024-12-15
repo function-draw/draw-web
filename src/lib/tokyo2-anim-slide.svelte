@@ -63,9 +63,9 @@
             if (scrollTop > 0 && !isScrolled) {
                 isScrolled = true;
                 updateView();
-            } else if (scrollTop == 0) {
-                isScrolled = false;
-                updateView();
+            // } else if (scrollTop == 0) {
+            //     isScrolled = false;
+            //     updateView();
             }
         });
     });
@@ -74,6 +74,6 @@
 <div class="top_ini">
     <div class="title">
       <img src="../../assets/images/draw_logo_tokyo.png" alt="logo"/>
-      <h1>Audio/Visual Event "draw(tokyo); #2" at Shibuya 2025/3</h1>
+      <p>Audio/Visual Event<b> "draw(tokyo); #2" </b>at Shibuya 2025/3</p>
     </div>
 </div>
