@@ -5,7 +5,7 @@
   width: 100%;
   top: 0;
   background-color: black;
-  height: 10%;
+  height: 100px;
   padding-left: 3.5%;
   padding-right: 3.5%;
 }
@@ -19,19 +19,21 @@
 }
 
 #header .left > .draw_logo {
-  width: 22%;
-  padding-right: 7%;
+  height: 60%;
+  padding-right: 10%;
   margin: 0;
 }
 
 #header .left > p {
-  margin-right: 4%;
+  margin-right: 8%;
   font-weight: bold;
   font-size: 1.2em;
 }
 
 #header > .right {
   height: 100%;
+  width: 400px;
+  float: right;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -45,7 +47,7 @@
 
 #header > .right > a {
   height: 33%;
-  margin-left: 3%;
+  margin-left: 5%;
 }
 
 #header > .right > a > img {
@@ -68,4 +70,29 @@ a {
 a:visited {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  #header {
+  height: 80px;
+  }
+
+  #header .left > p {
+    display: none;
+  }
+
+  #header > .right {
+    width: auto;
+    float: none;
+  }
+
+  .right > p:first-of-type, 
+  .right > .border {
+    display: none;
+  }
+
+  #header > .right > a {
+    margin-left: 10%;
+  }
+
 }

@@ -1,3 +1,14 @@
+/* ブラウザ毎に勝手についてるのでリセット必須 resetcssみたいなの使うのもありかも？りくぴ*/
+p, img, h1, h2, h3, h4, h5, a{
+    padding: 0;
+    margin: 0;
+}
+
+#page_tokyo2 {
+    color: #D9D9D9;
+    font-family: "IBM Plex Sans JP", sans-serif; /*デフォルトフォントセット　Jostは適時入れていくこと*/
+}
+
 html, body, #page_tokyo2 {
     width: 100%;
     height: 100%;
@@ -34,7 +45,7 @@ html, body, #page_tokyo2 {
 #page_tokyo2 > .root_top {
     height: 100%;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 1.5%;
     display: flex;
     align-items: center;
 }
@@ -42,7 +53,7 @@ html, body, #page_tokyo2 {
 #page_tokyo2 .top_main {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.92);
-    height: 71%;
+    height: 750px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,28 +62,41 @@ html, body, #page_tokyo2 {
 #page_tokyo2 .contents {
     height: 100%;
     width: 50%;
-    text-align: center;
 }
 
 #page_tokyo2 .contents > .title {
-    margin-top: 10%;
-    height: 35%;
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
 }
 
 #page_tokyo2 .contents > .title > img {
-    height: 80%;
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 140px;
 }
 
 #page_tokyo2 .contents > .title > h1 { 
-    font-size: 1.5em;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.6em;
+    font-family: "Jost";
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#page_tokyo2 .contents > .description{
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
 }
 
 #page_tokyo2 .contents > .description > p {
-    margin: 5% auto 14% 14%;
-    height: 100%;
-    font-size: 1.18em;
-    text-align: left;
+    font-size: 1.3em;
     line-height: 1.5em;
+    padding-top: 20px;
 }
 
 #page_tokyo2 .capture_pc {
@@ -85,83 +109,51 @@ html, body, #page_tokyo2 {
 
 #page_tokyo2 .capture_pc > img {
     height: 90%;
-    width: 81%;
+    width: 80%;
     object-fit: cover;
 }
 
+#page_tokyo2 .performer .root_content, #location .root_content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#page_tokyo2 .performer .root_content .title, #location .root_content .title {
+    font-family: 'jost';
+    font-weight: 500;
+    font-size: 2.0em;
+}
+
+#page_tokyo2 .performer .root_content .block  {
+    height: 25px;
+}
+
 #page_tokyo2 .performer {
-    width: 61%;
-    height: 132%;
+    width: 850px;
     background-color: rgba(0, 0, 0, 0.92);
     margin: 0 0 0 auto;
 }
 
 #page_tokyo2 .performer > .description {
-    width: 87%;
-    height: 7%;
-    margin-top: 3%;
-    margin-bottom: 0%;
-    margin-left: 6.5%;
-    margin-right: 6.5%;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #page_tokyo2 .performer > .description > p {
-    margin: 0px;
-    font-size: 1.45em;
+    font-size: 1.1em;
     line-height: 1.3em;
-}
-
-#page_tokyo2 .white_box {
-    width: 88%;
-    color: black;
-    background-color: #D9D9D9;
-    border-radius: 4px;
-    margin: 4% 6% 0 6%;
-    text-align: center;
-    font-size: 1.8rem;
-}
-
-#page_tokyo2 .black_box {
-    width: 22.6%;
-    border-color: white;
-    border: 1px solid;
-    background-color: black;
-    border-radius: 4px;
-    margin: 3% 3% 2% 3%;
-    text-align: center;
-    font-size: 1.3em;
-}
-
-#page_tokyo2 .root_content {
-    display: flex;
-}
-
-#page_tokyo2 .root_content .title {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 1%;
-    font-size: 2.5em;
-}
-
-#page_tokyo2 .performer .root_content .title {
-    margin-left: 6%;
-}
-
-#page_tokyo2 .root_content .block  {
-    width: 4.2vh;
-    height: 4.2vh;
-    margin-top: 2vh;
-}
-
-#page_tokyo2 .performer .root_content .block  {
-    margin-left: 70%;
-    margin-right: 0;
 }
 
 #page_tokyo2 .performer .border, #location .border {
     width: 95%;
     height: 1px;
-    background-color: white;
+    background-color: #D9D9D9;
     margin-top: 1px;
     margin-bottom: 1px;
     margin-left: 2.5%;
@@ -169,67 +161,92 @@ html, body, #page_tokyo2 {
 }
 
 #page_tokyo2 .performer .content > .text {
-    width: 91%;
-    margin-left: 4%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    font-size: 1.2rem;
+    font-family: "jost";
+    font-weight: 500;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4em;
 }
 
 #page_tokyo2 .time_table {
-    font-size: 1em;
+    font-size: 0.9em;
     margin-top: 2.5%;
     margin-bottom: 0%;
     margin-right: 5%;
     text-align: right;
+    padding-bottom: 5%;
+}
+
+#page_tokyo2 .white_box {
+    font-family: jost;
+    font-weight: 500;
+    width: 88%;
+    color: black;
+    background-color: #D9D9D9;
+    margin: 0 auto;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#page_tokyo2 .black_box {
+    font-family: jost;
+    font-weight: 500;
+    font-style: italic;
+    width: 25%;
+    border-color: #D9D9D9;
+    border: 2px solid;
+    background-color: black;
+    border-radius: 30px;
+    margin: 1% auto 1% 2.5%;
+    text-align: center;
+    font-size: 1.2em;
 }
 
 #location {
-    width: 46%;
-    height: 132%;
+    width: 850px;
     background-color: rgba(0, 0, 0, 0.92);
-    margin: 15% 0 8% 0;
-}
-
-#location .root_content .title  {
-    margin-left: 65%;
+    margin: 200px auto 200px 0;
 }
 
 #location .root_content .block  {
-    margin-left: 7%;
-    margin-top: 2%;
+    height: 25px;
     transform: rotateY(3.142rad);
 }
 
 #location iframe {
-    width: 84%;
-    height: 58.5%;
-    margin: 0 0 8% 8%;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto 6% 10%;
     filter: grayscale(50%) invert(92%) contrast(83%);
 }
 
 #location .location_text {
-    margin: 5% 0 0 9%;
-    font-size: 1.5em;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #location .day_text {
-    margin: 1% 0 0 10%;
-    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.0em;
+    padding-bottom: 10px;
 }
 
 #location .caution {
-    width: 84%;
+    width: 85%;
     background-color: #171717;
-    margin: auto 8% 4% 8%;
+    margin: 0 auto;
     border-radius: 4px;
 }
 
 #location .caution p {
     padding: 2.5%;
-    font-size: 1.05em;
+    font-size: 0.9em;
     line-height: 1.3;
-    text-align: left;
 }
 
 #location .caution .green {
@@ -245,8 +262,11 @@ html, body, #page_tokyo2 {
 }
 
 #location > .map_text {
-    font-size: 1.3em;
-    margin: 0 0 0 8%;
+    margin: 0 auto;
+    width: 85%;
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navi_map {
@@ -255,23 +275,179 @@ html, body, #page_tokyo2 {
 }
 
 #page_tokyo2 footer {
-    padding: 2% 0 0 0;
+    padding-top: 20px;
     background-color: black;
     text-align: center;
 }
-
+#page_tokyo2 footer p img {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    padding-bottom: 20px;
+}
 #page_tokyo2 footer p {
-    margin: 0;
+    font-family: 'jost';
 }
 
-#page_tokyo2 footer p:first-child {
-    margin-bottom: 1%;
+/* 横依存 */
+@media (max-width: 1625px) {
+    #page_tokyo2 .contents > .title > img {
+        width: 400px;
+        padding-top: 150px;
+    }
+    #page_tokyo2 .contents > .title > h1 { 
+        font-size: 1.3em;
+    }
+    #page_tokyo2 .contents > .description > p {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
 }
 
-#page_tokyo2 footer p:first-child img {
-    width: 8%;
+@media (min-width: 1700px) {
+    #page_tokyo2 .performer {
+        padding-right: 10%;
+    }
+    #location {
+        padding-left: 10%;
+    }
+}
+/* 横依存 */
+@media (max-width: 1340px) {
+    #page_tokyo2 .contents > .title > img {
+        width: 360px;
+        padding-top: 180px;
+    }
+    #page_tokyo2 .contents > .title > h1 { 
+        font-size: 1.1em;
+    }
+    #page_tokyo2 .contents > .description > p {
+        font-size: 1.0em;
+        line-height: 1.3em;
+    }
 }
 
-#page_tokyo2 footer p:last-child {
-    padding-bottom: 1%;
+
+/* 高さ依存 */
+@media (max-height: 950px) {
+
+    #page_tokyo2 > .root_top {
+        margin-top: 3%;
+    }
+
+    #page_tokyo2 .top_main {
+        height: 600px;
+    }
+    #page_tokyo2 .contents > .title > img {
+        padding-top: 80px;
+    }
+    #page_tokyo2 .contents > .description > p {
+        font-size: 1.1em;
+        line-height: 1.4em;
+        padding-top: 20px;
+    }
+}
+
+@media (max-height: 725px) {
+    #page_tokyo2 > .root_top {
+        height: 725px;
+        margin-top: 2%;
+    }
+}
+
+/* スマホ依存 */
+@media (max-width: 1000px) {
+    #page_tokyo2 > .root_top {
+        margin-top: 80px;
+        height: calc(100vh - 80px);
+    }
+    #page_tokyo2 .top_main{
+        flex-direction: column;
+        height: 100%;
+    }
+    #page_tokyo2 .contents {
+        width: 100%;
+        height: auto;
+    }
+    #page_tokyo2 .contents > .title {
+        width: 100%;
+        height: auto;
+    }
+    #page_tokyo2 .contents > .title > img {
+        width: 60%;
+        padding-top: 40px;
+    }
+    #page_tokyo2 .contents > .title > h1 { 
+        width: 100%;
+        font-size: 1.0em;
+    }
+    #page_tokyo2 .contents > .description > p {
+        font-size: 1.0em;
+        line-height: 1.2em;
+        padding-top: 20px;
+    }
+    #page_tokyo2 .capture_pc {
+        width: 100%;
+    }
+    #page_tokyo2 .performer {
+        margin-top: 100px;
+        width: 90%;
+    }
+    #page_tokyo2 .black_box {
+        width: 25%;
+        margin: 1% auto 1% 0;
+    }
+    #page_tokyo2 .performer .root_content .title, #location .root_content .title {
+        font-size: 1.7em;
+    }
+    #page_tokyo2 .performer > .description > p {
+        font-size: 1.0em;
+        line-height: 1.4em;
+    }
+    #page_tokyo2 .performer .content > .text {
+        width: 95%;
+        font-size: 1.2em;
+    }
+    #page_tokyo2 .time_table {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 0.8em;
+        text-align: left;
+    }    
+    #location {
+        margin: 100px auto 100px 0;
+        width: 90%;
+    }
+    #location .location_text {
+        width: 85%;
+        font-size: 1.3em;
+    }
+    #location .day_text {
+        font-size: 0.9em;
+    }
+    #location .caution p {
+        font-size: 0.8em;
+        line-height: 1.3;
+    }
+
+    #location > .map_text {
+        width: 85%;
+        font-size: 1.2em;
+    }
+    
+    #page_tokyo2 footer p img {
+        margin: 0 auto;
+        display: block;
+        width: 150px;
+        padding-bottom: 20px;
+    }
+    #page_tokyo2 footer .copyright{
+        padding-bottom: 10px;
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 950px) {
+    #page_tokyo2 .contents > .title > h1 { 
+        font-size: 0.9em;
+    }
 }

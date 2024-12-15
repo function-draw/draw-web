@@ -67,7 +67,7 @@
     crossorigin="anonymous"
   />
   <link
-    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=M+PLUS+1p&display=swap"
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&family=Jost:wght@400;500&family=M+PLUS+1p&display=swap"
     rel="stylesheet"
   />
   <!-- OGP Settings -->
