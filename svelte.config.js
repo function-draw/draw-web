@@ -16,7 +16,7 @@ const config = {
 	},
 	paths: {
 		// GitHub Pagesのサブディレクトリ対応
-		base: process.env.NODE_ENV === 'production' ? /draw-web/ : '',
+		base: '',
 	},
 	vite: {
 		build: {
