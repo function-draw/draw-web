@@ -1,30 +1,30 @@
 <!-- header -->
-<body>
+<div id="layout-tokyo">
   <div class="header">
     <ul>
       <li>
         <p>
-          <a href=""><img src="./assets/images/draw_logo_tokyo.png" alt="logo" /></a
+          <a href="#startView"><img src="./assets/images/draw_logo_tokyo.png" alt="logo" /></a
           >
         </p>
       </li>
       <li>
-        <p><a href=""> ABOUT</a></p>
+        <p><a href="#about"> ABOUT</a></p>
       </li>
       <li>
-        <p><a href="">PERFORMER</a></p>
+        <p><a href="#performer">PERFORMER</a></p>
       </li>
       <li>
         <p><a href="/">draw(); WEBSITE</a></p>
       </li>
     </ul>
   </div>
-</body>
+</div>
 
 <slot />
 
 <style>
-  body {
+  #layout-tokyo {
     margin: 0;
     padding: 0;
     background-color: black;
