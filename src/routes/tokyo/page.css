@@ -36,7 +36,7 @@ html {
 }
 
 #page_tokyo #wrapper {
-    background: url(./assets/images/bg_trans.png) repeat;
+    background: url("https://function-draw.com/assets/images/bg_trans.png") repeat;
     margin: 0;
     padding: 0;
     top: 0;
