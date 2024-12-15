@@ -23,7 +23,7 @@
       <div class="border"></div>
       <a href="https://twitter.com/function_draw" target="_blank"><img src="./assets/images/sns_icons/X_logo_2023.svg" alt="draw-X-logo-2023"/></a>
       <a href="https://www.twitch.tv/function_draw" target="_blank"><img src="./assets/images/sns_icons/TwitchGlitchWhite.svg" alt="twitch"/></a>
-      <a href="https://peatix.com/event/4238296/view?k=96a709de6cf9298cf79ee1439de87e924b85a0d7" target="_blank"><img src="./assets/images/sns_icons/ticket.png" alt="ticket"/></a>
+      <a href="https://draw-tokyo2.peatix.com/" target="_blank"><img src="./assets/images/sns_icons/ticket.png" alt="ticket"/></a>
     </div>
   </div>
 </div> 
