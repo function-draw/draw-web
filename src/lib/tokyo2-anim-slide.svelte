@@ -15,8 +15,8 @@
   
     onMount(() => {
         let isScrolled = false;
-    
-        window.addEventListener("scroll", () => {
+
+        function onLoaded() {
             const rate = 0.065;
             // 
             const layoutHeaderLogoDefaultValue = -209;
@@ -63,11 +63,22 @@
             if (scrollTop > 0 && !isScrolled) {
                 isScrolled = true;
                 updateView();
-            // } else if (scrollTop == 0) {
+            } 
+            // else if (scrollTop == 0) {
             //     isScrolled = false;
             //     updateView();
+            // }
+        }
+
+        function waitOnLoad() {
+            if (document.readyState == "complete") {
+                window.addEventListener("scroll", onLoaded);
+            } else {
+                requestAnimationFrame(waitOnLoad);
             }
-        });
+        }
+
+        waitOnLoad();
     });
 </script>
 

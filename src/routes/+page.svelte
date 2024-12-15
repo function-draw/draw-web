@@ -18,25 +18,27 @@
 </script>
 
 <!-- metatags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="">
-<meta name="description" content="">
-<title>draw();</title>
-<link rel="icon" href="./assets/images/draw_favicon.webp">
-<link rel="apple-touch-icon" href="./assets/images/draw_favicon.webp" sizes="128x128">
-<link rel="icon" type="image/png" href="./assets/images/draw_favicon.webp" sizes="128x128">
-<!-- OGP Settings -->
-<meta property="og:url" content="https://function-draw.com/">
-<meta property="og:title" content="draw();">
-<meta property="og:description" content="オーディオとビジュアルのパフォーマンスを楽しむライブイベント">
-<meta property="og:type" content="website">
-<meta property="og:image" content="https://function-draw.com/images/draw_logo_card.png">
-<meta property="og:image:width" content="512">
-<meta property="og:image:height" content="512">
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@function_draw">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<svelte:head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <title>draw();</title>
+  <link rel="icon" href="./assets/images/draw_favicon.webp">
+  <link rel="apple-touch-icon" href="./assets/images/draw_favicon.webp" sizes="128x128">
+  <link rel="icon" type="image/png" href="./assets/images/draw_favicon.webp" sizes="128x128">
+  <!-- OGP Settings -->
+  <meta property="og:url" content="https://function-draw.com/">
+  <meta property="og:title" content="draw();">
+  <meta property="og:description" content="オーディオとビジュアルのパフォーマンスを楽しむライブイベント">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://function-draw.com/images/draw_logo_card.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@function_draw">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</svelte:head>
 
 <main id="page_main">
   <div class="container">

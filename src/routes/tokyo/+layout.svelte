@@ -1,30 +1,30 @@
 <!-- header -->
-<body>
+<div id="layout_tokyo">
   <div class="header">
     <ul>
       <li>
         <p>
-          <a href=""><img src="./assets/images/draw_logo_tokyo.png" alt="logo" /></a
+          <a href="#startView"><img src="./assets/images/draw_logo_tokyo.png" alt="logo" /></a
           >
         </p>
       </li>
       <li>
-        <p><a href=""> ABOUT</a></p>
+        <p><a href="#about"> ABOUT</a></p>
       </li>
       <li>
-        <p><a href="">PERFORMER</a></p>
+        <p><a href="#performer">PERFORMER</a></p>
       </li>
       <li>
         <p><a href="/">draw(); WEBSITE</a></p>
       </li>
     </ul>
   </div>
-</body>
+</div>
 
 <slot />
 
 <style>
-  body {
+  #layout_tokyo {
     margin: 0;
     padding: 0;
     background-color: black;
@@ -35,7 +35,7 @@
       Osaka, arial, sans-serif;
   }
 
-  .header {
+  #layout_tokyo .header {
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -46,7 +46,7 @@
       rgba(0, 0, 0, 1)
     );
   }
-  .header ul {
+  #layout_tokyo .header ul {
     display: flex;
     flex-wrap: nowrap;
     width: 600px;
@@ -55,7 +55,7 @@
     padding: 0;
   }
 
-  .header li {
+  #layout_tokyo .header li {
     vertical-align: middle;
     width: 100%;
     margin: 0;
@@ -64,26 +64,26 @@
     list-style: none;
   }
 
-  .header li p {
+  #layout_tokyo .header li p {
     font-size: 13pt;
     font-weight: 500;
     position: relative;
     text-align: center;
   }
 
-  .header li p img {
+  #layout_tokyo .header li p img {
     position: absolute;
     top: -8px;
     left: 36px;
     width: 60%;
   }
 
-  a {
+  #layout_tokyo a {
     color: white;
     text-decoration: none;
   }
 
-  a:visited {
+  #layout_tokyo a:visited {
     color: white;
     text-decoration: none;
   }
