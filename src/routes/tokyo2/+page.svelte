@@ -18,12 +18,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
-  <link rel="icon" href="/assets/images/favicon.ico" />
-  <link rel="apple-touch-icon" href="/assets/images/favicon.png" sizes="128x128" />
+  <link rel="icon" href="./assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="./assets/images/favicon.png" sizes="128x128" />
   <link
     rel="icon"
     type="image/png"
-    href="/assets/images/favicon.png"
+    href="./assets/images/favicon.png"
     sizes="128x128"
   />
   <link
@@ -73,7 +73,7 @@
     <div id="about">
       <div class="contents">
         <div class="title">
-          <img src="/assets/images/draw_logo_tokyo.png" alt="logo"/>
+          <img src="./assets/images/draw_logo_tokyo.png" alt="logo"/>
           <h1>Audio/Visual Event <b>"draw(tokyo); #2"</b> at Shibuya 2025/3</h1>
         </div>
         <div class="description">
@@ -83,7 +83,7 @@
 
       <!-- スマホでは横並びで表示する領域が足りなさそうなので別要素として表示する? -->
       <div class="capture_pc">
-        <img src="/assets/images/tokyo2/capture.png" alt="capture">
+        <img src="./assets/images/tokyo2/capture.png" alt="capture">
       </div>
 
     </div>
@@ -93,7 +93,7 @@
   <div id="performer">
     <div class="root_content">
       <p class="title">Performer</p>
-      <img src="/assets/images/tokyo2/box.png" alt="block" class="block">
+      <img src="./assets/images/tokyo2/box.png" alt="block" class="block">
     </div>
     <div class="border"></div>
     <div class="description">
@@ -143,7 +143,7 @@
   <!-- about -->
   <div id="location">
     <div class="root_content">
-      <img src="/assets/images/tokyo2/box.png" alt="block" class="block">
+      <img src="./assets/images/tokyo2/box.png" alt="block" class="block">
       <p class="title">Location</p>
     </div>
     <div class="border"></div>
@@ -176,7 +176,7 @@
   <!-- under -->
   <footer>
     <p>
-      <img src="/assets/images/draw_logo_tokyo.png" alt="draw-logo-tokyo" />
+      <img src="./assets/images/draw_logo_tokyo.png" alt="draw-logo-tokyo" />
     </p>
     <p class="copyright">Copyright © draw(); All Rights Reserved.</p>
   </footer>
