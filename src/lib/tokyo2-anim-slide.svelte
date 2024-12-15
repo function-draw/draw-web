@@ -73,7 +73,7 @@
 
 <div class="top_ini">
     <div class="title">
-      <img src="../../assets/images/draw_logo_tokyo.png" alt="logo"/>
+      <img src="/assets/images/draw_logo_tokyo.png" alt="logo"/>
       <p>Audio/Visual Event<b> "draw(tokyo); #2" </b>at Shibuya 2025/3</p>
     </div>
 </div>

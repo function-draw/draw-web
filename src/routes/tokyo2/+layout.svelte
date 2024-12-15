@@ -11,7 +11,7 @@
   <div id="header">
     <!-- left -->
     <div class="left">
-      <img src="../../assets/images/draw_logo_tokyo.png" alt="logo" class="draw_logo"/>
+      <img src="/assets/images/draw_logo_tokyo.png" alt="logo" class="draw_logo"/>
       <a href="#about">about</a>
       <a href="#performer">performer</a>
       <a href="#location">location</a>
@@ -21,9 +21,9 @@
     <div class="right">
       <p><a href="/" class="draw_link">draw(); Website</a></p>
       <div class="border"></div>
-      <a href="https://twitter.com/function_draw" target="_blank"><img src="../../assets/images/sns_icons/X_logo_2023.svg" alt="draw-X-logo-2023"/></a>
-      <a href="https://www.twitch.tv/function_draw" target="_blank"><img src="../../assets/images/sns_icons/TwitchGlitchWhite.svg" alt="twitch"/></a>
-      <a href="https://peatix.com/event/4238296/view?k=96a709de6cf9298cf79ee1439de87e924b85a0d7" target="_blank"><img src="../../assets/images/sns_icons/ticket.png" alt="ticket"/></a>
+      <a href="https://twitter.com/function_draw" target="_blank"><img src="/assets/images/sns_icons/X_logo_2023.svg" alt="draw-X-logo-2023"/></a>
+      <a href="https://www.twitch.tv/function_draw" target="_blank"><img src="/assets/images/sns_icons/TwitchGlitchWhite.svg" alt="twitch"/></a>
+      <a href="https://peatix.com/event/4238296/view?k=96a709de6cf9298cf79ee1439de87e924b85a0d7" target="_blank"><img src="/assets/images/sns_icons/ticket.png" alt="ticket"/></a>
     </div>
   </div>
 </div> 
