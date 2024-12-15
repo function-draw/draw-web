@@ -1,8 +1,10 @@
 <script lang="ts">
   // @ts-nocheck
   import BgGfx from '$lib/tokyo2-bg-gfx.svelte';
+  import AnimSlideElem from '$lib/tokyo2-anim-slide.svelte'
   import './page.css'
   import '../default.css'
+
   // documentがマウントされてから実行することを保証
   import { onMount } from "svelte";
 
@@ -64,6 +66,7 @@
   -->
   <!-- <canvas class="canvas_bg"></canvas> -->
   <BgGfx />
+  <AnimSlideElem />
 
   <!-- Drawのロゴと説明、過去の記録画像を表示する領域 -->
   <div class="root_top">

@@ -1,0 +1,36 @@
+#page_tokyo2 > .top_ini {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.92);
+    
+    top: 50%;
+    transform: translateY(-50%);
+
+    /* animation */
+    opacity: 1.0;
+}
+
+#page_tokyo2 > .top_ini > .title { 
+    width: 100%;
+}
+
+#page_tokyo2 > .top_ini > .title > img { 
+    margin-top: 25px;
+}
+
+#page_tokyo2 .top_main {
+    /* animation */
+    opacity: 0.0;
+}
+
+#header .left {
+    /* animation */
+    transform: translateX(-32%);
+}
+
+#header .left > .draw_logo {
+    /* animation */
+    opacity: 0;
+}
