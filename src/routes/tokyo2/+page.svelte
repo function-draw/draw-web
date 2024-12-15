@@ -59,13 +59,9 @@
 </svelte:head>
 
 <main id="page_tokyo2">
-  <!-- 
-    divをcanvasに書き換えて, 
-    page.cssの#page_tokyo2 .canvas_bgのbackgroud-imageの行を消してください
-    to をにゅさん 
-  -->
-  <!-- <canvas class="canvas_bg"></canvas> -->
+  <!-- うにょうにょ背景 -->
   <BgGfx />
+  <!-- スライドアニメーション適応 -->
   <AnimSlideElem />
 
   <!-- Drawのロゴと説明、過去の記録画像を表示する領域 -->
@@ -74,7 +70,7 @@
     <!-- ここにclass=top_iniで未スクロール時の初期状態の要素を書く -->
 
     <!-- スクロール後表示される領域 -->
-    <div class="top_main">
+    <div id="about">
       <div class="contents">
         <div class="title">
           <img src="../../assets/images/draw_logo_tokyo.png" alt="logo"/>
@@ -94,7 +90,7 @@
   </div>
   
   <!-- Performer -->
-  <div class="performer">
+  <div id="performer">
     <div class="root_content">
       <p class="title">Performer</p>
       <img src="../../../assets/images/tokyo2/box.png" alt="block" class="block">

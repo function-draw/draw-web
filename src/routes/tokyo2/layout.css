@@ -24,7 +24,7 @@
   margin: 0;
 }
 
-#header .left > p {
+#header .left > a {
   margin-right: 8%;
   font-weight: bold;
   font-size: 1.2em;
@@ -77,7 +77,7 @@ a:visited {
   height: 80px;
   }
 
-  #header .left > p {
+  #header .left > a {
     display: none;
   }
 

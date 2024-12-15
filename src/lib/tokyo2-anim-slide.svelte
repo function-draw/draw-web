@@ -19,13 +19,13 @@
         window.addEventListener("scroll", () => {
             const rate = 0.065;
             // 
-            const layoutHeaderLogoDefaultValue = -32.0;
+            const layoutHeaderLogoDefaultValue = -209;
 
             const domTokyo2 = document.getElementById("page_tokyo2");
             // 初期状態で表示される要素
             const domTopIni = domTokyo2?.getElementsByClassName("top_ini")[0];
             // スクロールして表示される要素
-            const domTopMain = domTokyo2?.getElementsByClassName("top_main")[0];
+            const domTopMain = document.getElementById("about");
             // ヘッダーのロゴ(スクロール表示)
             const domLayoutHeaderLeft = document.getElementById("header")?.getElementsByClassName("left")[0];
             const domLayoutHeaderLogo = domLayoutHeaderLeft?.getElementsByClassName("draw_logo")[0];
@@ -45,13 +45,13 @@
                     // スクロールしたとき
                     domTopIni.style.opacity = easeCubicValue;
                     domTopMain.style.opacity = 1.0 - easeCubicValue;
-                    domLayoutHeaderLeft.style.transform = `translateX(${layoutHeaderLogoDefaultValue * easeCubicValue}%)`;
+                    domLayoutHeaderLeft.style.transform = `translateX(${layoutHeaderLogoDefaultValue * easeCubicValue}px)`;
                     domLayoutHeaderLogo.style.opacity = 1.0 - easeQuintValue;
                 } else {
                     // 初期状態に戻す
                     domTopIni.style.opacity = 1.0 - easeCubicValue;
                     domTopMain.style.opacity = easeCubicValue;
-                    domLayoutHeaderLeft.style.transform = `translateX(${layoutHeaderLogoDefaultValue * (1.0 - easeCubicValue)}%)`;
+                    domLayoutHeaderLeft.style.transform = `translateX(${layoutHeaderLogoDefaultValue * (1.0 - easeCubicValue)}px)`;
                     domLayoutHeaderLogo.style.opacity = easeQuintValue;
                 }
 

@@ -20,14 +20,14 @@
     margin-top: 25px;
 }
 
-#page_tokyo2 .top_main {
+#page_tokyo2 #about {
     /* animation */
     opacity: 0.0;
 }
 
 #header .left {
     /* animation */
-    transform: translateX(-32%);
+    transform: translateX(-209px);
 }
 
 #header .left > .draw_logo {
