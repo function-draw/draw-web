@@ -35,8 +35,8 @@
     crossorigin="anonymous"
   />
   <link
-    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=M+PLUS+1p&display=swap"
-    rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP&family=Jost:wght@400;500&family=M+PLUS+1p&display=swap"
+  rel="stylesheet"
   />
   <!-- OGP Settings -->
   <meta property="og:url" content="https://function-draw.com/tokyo" />
@@ -75,14 +75,10 @@
       <div class="contents">
         <div class="title">
           <img src="../../assets/images/draw_logo_tokyo.png" alt="logo"/>
-          <h1>Audio/Visual Event "draw(tokyo); #2" at Shibuya 2025/3</h1>
+          <h1>Audio/Visual Event <b>"draw(tokyo); #2"</b> at Shibuya 2025/3</h1>
         </div>
         <div class="description">
-          <p>クリエイティブチームdraw();によるジェネラティブVJをコンセプトにした<br>
-            オーディオビジュアルイベント2022年9月に1回目のオンライン配信イベントが<br>
-            開催され、これまでにライブコーディングやマシンライブ、ジェネ系VJ、<br>
-            DJなどのライブパフォーマンスがVRChat、Twitch、オフライン会場で<br>
-            行われた。</p>
+          <p>クリエイティブチームdraw();によるジェネラティブVJをコンセプトにしたオーディオビジュアルイベント2022年9月に1回目のオンライン配信イベントが開催され、これまでにライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスがVRChat、Twitch、オフライン会場で行われた。</p>
         </div>
       </div>
 
@@ -103,32 +99,27 @@
     <div class="border"></div>
     <div class="description">
       <p>
-        今回のdraw(tokyo); #2ではAudioはDJ、Live coding(GLSL,Sonic Pi等)、マシンライブ等を用いた
-        Liveが行われ、VisualはLivecoding(GLSL等)、Notch、Unity、WebGL、TouchDesigner等を用いた
-        VJが行われる予定である。
+        今回のdraw(tokyo); #2ではAudioはDJ、Live coding(GLSL,Sonic Pi等)、マシンライブ等を用いたLiveが行われ、VisualはLivecoding(GLSL等)、Notch、Unity、WebGL、TouchDesigner等を用いたVJが行われる予定である。
       </p>
     </div>
     <p class="white_box">MainFloor</p>
     <ul>
       <div class="content">
-        <p class="black_box">LIVE</p>
+        <p class="black_box">Live</p>
         <p class="text">
-          Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set) <br>
-          Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)
+          0b5vr(LiveCoding)　Acidclank(Solo Set)　Keijiro Takahashi(A/V Set)　lactoice(LiveCoding)　Niko_14(LiveCoding)
         </p>
       </div>
       <div class="content">
         <p class="black_box">DJ</p>
         <p class="text">
-          Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set) <br>
-          Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)
+          RIKUPI-X　ymg
         </p>
       </div>
       <div class="content">
         <p class="black_box">VJ</p>
         <p class="text">
-          Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set) <br>
-          Keijiro Takahashi(A/V set)  Keijiro Takahashi(A/V set)
+          butadiene(LiveCoding)　Renard　Saina　shirasuna　ukonpower　uni101(LiveCoding)　W0NYV
         </p>
       </div>
     </ul>
@@ -137,15 +128,13 @@
       <div class="content">
         <p class="black_box">DJ</p>
         <p class="text">
-          とうふおさおい  とうふおさおい  とうふおさおい   とうふおさおい <br>
-          とうふおさおい  とうふおさおい
+          Aniel　malobug　Nia　sara-arai　toufu0301
         </p>
       </div>
       <div class="content">
         <p class="black_box">VJ</p>
         <p class="text">
-          とうふおさおい  とうふおさおい  とうふおさおい   とうふおさおい <br>
-          とうふおさおい  とうふおさおい
+          gam0022(LiveCoding)　Kazufumi Shibuya　kinankomoti　monoton　shivaduke
         </p>
       </div>
     </ul>
@@ -190,6 +179,6 @@
     <p>
       <img src="../../../assets/images/draw_logo_tokyo.png" alt="draw-logo-tokyo" />
     </p>
-    <p>Copyright © draw(); All Rights Reserved.</p>
+    <p class="copyright">Copyright © draw(); All Rights Reserved.</p>
   </footer>
 </main>
