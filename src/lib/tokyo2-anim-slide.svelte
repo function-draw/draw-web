@@ -63,10 +63,11 @@
             if (scrollTop > 0 && !isScrolled) {
                 isScrolled = true;
                 updateView();
-            // } else if (scrollTop == 0) {
+            } 
+            // else if (scrollTop == 0) {
             //     isScrolled = false;
             //     updateView();
-            }
+            // }
         });
     });
 </script>

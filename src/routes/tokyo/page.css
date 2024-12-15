@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #page_tokyo {
     margin: 0;
     padding: 0;
@@ -8,21 +12,21 @@
         Osaka, arial, sans-serif;
 }
 
-a {
+#page_tokyo a {
     color: white;
     text-decoration: none;
 }
 
-a:visited {
+#page_tokyo a:visited {
     color: white;
     text-decoration: none;
 }
 
-b {
+#page_tokyo b {
     font-weight: 500;
 }
 
-#video {
+#page_tokyo #video {
     margin: 0;
     padding: 0;
     top: 0;
@@ -31,7 +35,7 @@ b {
     overflow: hidden;
 }
 
-#wrapper {
+#page_tokyo #wrapper {
     background: url(./assets/images/bg_trans.png) repeat;
     margin: 0;
     padding: 0;
@@ -43,27 +47,27 @@ b {
     overflow: hidden;
 }
 
-.navi_map {
+#page_tokyo .navi_map {
     border: 0;
 }
 
-#startView {
+#page_tokyo #startView {
     margin: 0;
     padding: 0;
     height: 100vh;
 }
 
-h1 {
+#page_tokyo h1 {
     padding-top: 20vh;
     text-align: center;
 }
 
-h1 img {
+#page_tokyo h1 img {
     display: block;
     margin: auto;
 }
 
-#description {
+#page_tokyo #description {
     width: 600px;
     background-color: rgba(10, 10, 10, 0.8);
     padding: 0.5%;
@@ -71,11 +75,11 @@ h1 img {
     border-radius: 6px;
 }
 
-#description p {
+#page_tokyo #description p {
     text-align: center;
 }
 
-.social {
+#page_tokyo .social {
     margin: 0 auto;
     width: 60%;
     opacity: 0.9;
@@ -84,23 +88,23 @@ h1 img {
     padding: 0;
 }
 
-.social li {
+#page_tokyo .social li {
     width: 100%;
     text-align: center;
     vertical-align: middle;
     list-style: none;
 }
 
-.social li p {
+#page_tokyo .social li p {
     margin: 2% 0 10% 0;
     font-size: 12pt;
 }
 
-.social li p img {
+#page_tokyo .social li p img {
     height: 40px;
 }
 
-.about {
+#page_tokyo .about {
     width: 500px;
     background-color: rgba(10, 10, 10, 0.8);
     padding: 0.5%;
@@ -109,34 +113,34 @@ h1 img {
     text-align: center;
 }
 
-.about p:first-child {
+#page_tokyo .about p:first-child {
     font-size: 18pt;
 }
 
-.about p {
+#page_tokyo .about p {
     line-height: 40%;
     font-size: 13pt;
 }
 
-.about iframe {
+#page_tokyo .about iframe {
     width: 450px;
     height: 450px;
     filter: grayscale(50%) invert(92%) contrast(83%);
 }
 
-.about_description {
+#page_tokyo .about_description {
     margin: 2% 0 2% 0;
     display: inline-block;
     font-size: 11pt !important;
     line-height: 1.5 !important;
 }
 
-.about .annotation {
+#page_tokyo .about .annotation {
     padding: 0 0 2% 0;
     font-size: 11pt !important;
 }
 
-.about .caution {
+#page_tokyo .about .caution {
     font-size: 13px;
     line-height: 1.2;
     text-align: left;
@@ -148,7 +152,7 @@ h1 img {
     border-radius: 6px;
 }
 
-.performer {
+#page_tokyo .performer {
     width: 500px;
     background-color: rgba(10, 10, 10, 0.8);
     padding: 0.5%;
@@ -157,22 +161,22 @@ h1 img {
     text-align: center;
 }
 
-.performer p:first-child {
+#page_tokyo .performer p:first-child {
     font-size: 18pt;
 }
 
-.performer .role {
+#page_tokyo .performer .role {
     margin: 0;
     font-size: 13pt;
 }
 
-.performer .name {
+#page_tokyo .performer .name {
     margin: 0 0 2% 0;
     font-weight: 500;
     font-size: 14pt;
 }
 
-footer {
+#page_tokyo footer {
     padding: 2% 0 0 0;
     background-image: linear-gradient(
         0deg,
@@ -182,28 +186,28 @@ footer {
     text-align: center;
 }
 
-footer p {
+#page_tokyo footer p {
     margin: 0;
 }
 
-footer p:first-child {
+#page_tokyo footer p:first-child {
     margin-bottom: 1%;
 }
 
-footer p:first-child img {
+#page_tokyo footer p:first-child img {
     width: 8%;
 }
 
-footer p:last-child {
+#page_tokyo footer p:last-child {
     padding-bottom: 1%;
 }
 
-#about, #performer {
+#page_tokyo #about, #performer {
     padding-top: 1px;
 }
 
 @media (max-height: 520px) {
-    #startView {
+    #page_tokyo #startView {
         margin: 0;
         padding: 0;
         height: 520px;
@@ -211,67 +215,67 @@ footer p:last-child {
 }
 
 @media (max-width: 1000px) {
-    footer p:first-child img {
+    #page_tokyo footer p:first-child img {
         width: 200px;
     }
 }
 
 @media (max-width: 760px) {
-    h1 {
+    #page_tokyo h1 {
         padding-top: 15vh;
     }
 
-    h1 img {
+    #page_tokyo h1 img {
         width: 80%;
         display: block;
         margin: auto;
     }
 
-    #description {
+    #page_tokyo #description {
         width: 80%;
     }
 
-    .social {
+    #page_tokyo .social {
         width: 90%;
     }
 
-    .social li p {
+    #page_tokyo .social li p {
         margin: 2% 0 20% 0;
         font-size: 11pt;
     }
 
-    .about {
+    #page_tokyo .about {
         width: 80%;
     }
 
-    .about p {
+    #page_tokyo .about p {
         font-size: 11pt;
     }
 
-    .about_description {
+    #page_tokyo .about_description {
         font-size: 10pt !important;
         line-height: 1.5 !important;
     }
     
-    .about .caution {
+    #page_tokyo .about .caution {
         width: 85%;
     }
 
-    .about iframe {
+    #page_tokyo .about iframe {
         width: 90%;
         height: 400px;
         filter: grayscale(50%) invert(92%) contrast(83%);
     }
 
-    .performer {
+    #page_tokyo .performer {
         width: 80%;
     }
 
-    footer p {
+    #page_tokyo footer p {
         font-size: 10pt;
     }
 
-    footer p:first-child img {
+    #page_tokyo footer p:first-child img {
         width: 120px;
     }
 }
