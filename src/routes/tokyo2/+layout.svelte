@@ -13,7 +13,7 @@
     <div class="left">
       <img src="./assets/images/draw_logo_tokyo.png" alt="logo" class="draw_logo"/>
       <a href="#about">about</a>
-      <a href="#performer">performer</a>
+      <a href="#performer">performers</a>
       <a href="#location">location</a>
     </div>
       
