@@ -77,7 +77,7 @@
           <h1>Audio/Visual Event <b>"draw(tokyo); #2"</b> at Shibuya 2025/3</h1>
         </div>
         <div class="description">
-          <p>クリエイティブチームdraw();によるジェネラティブVJをコンセプトにしたオーディオビジュアルイベントが2022年9月に1回目のオンライン配信イベントが開催され、これまでにライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスがVRChat、Twitch、オフライン会場で行われた。</p>
+          <p>　クリエイティブチームdraw();によるジェネラティブVJをコンセプトにしたオーディオビジュアルイベントが2022年9月に1回目のオンライン配信イベントが開催され、これまでにライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスがVRChat、Twitch、オフライン会場で行われた。</p>
         </div>
       </div>
 
@@ -92,13 +92,13 @@
   <!-- Performer -->
   <div id="performer">
     <div class="root_content">
-      <p class="title">Performer</p>
+      <p class="title">Performers</p>
       <img src="./assets/images/tokyo2/box.png" alt="block" class="block">
     </div>
     <div class="border"></div>
     <div class="description">
       <p>
-        今回のdraw(tokyo); #2ではAudioはDJ、Live coding(GLSL,Sonic Pi等)、マシンライブ等を用いたLiveが行われ、VisualはLivecoding(GLSL等)、Notch、Unity、WebGL、TouchDesigner等を用いたVJが行われる予定である。
+        　今回のdraw(tokyo); #2ではAudioはDJ、Live coding(GLSL,Sonic Pi等)、マシンライブ等を用いたLiveが行われ、VisualはLivecoding(GLSL等)、Notch、Unity、WebGL、TouchDesigner等を用いたVJが行われる予定である。
       </p>
     </div>
     <p class="white_box">MainFloor</p>
@@ -151,15 +151,15 @@
     <p class="day_text">
       日付：2025年3月22日（土曜日）<br>
       時間：14:00~20:30<br>
-      ※演者、時間帯の変更等、可能性あり<br>
+      ※演者、時間帯などの変更の可能性あり<br>
     </p>
     <div class="caution">
       <p class="green">
-        未成年でも入場可能です。
+        未成年でも入場可能！！！！
       </p>
       <p class="red">
-        再入場ができません。荷物預けなどご注意ください。<br
-        />顔写真付き身分証明書を必ず持参ください。
+        ※顔写真付き身分証明書を必ず持参ください。<br
+        />※再入場ができません。荷物預けなどご注意ください。
       </p>
     </div>
     <p class="map_text">MAP（周辺地図）</p>
