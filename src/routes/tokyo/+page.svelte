@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
-  import './default.css'
+  import './page.css'
 
   //動画サイズの指定
   const videoWidth = 1280;
@@ -42,7 +42,7 @@
   });
 </script>
 
-<head>
+<svelte:head>
   <meta charset="utf-8" />
   <title>draw(Tokyo);</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -86,16 +86,16 @@
   <meta property="og:image:height" content="512" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@function_draw" />
-</head>
+</svelte:head>
 
-<body>
+<div id="page_tokyo">
   <video id="video" src="./assets/videos/drawtokyoback.mp4" autoplay loop muted></video>
   <div id="wrapper"></div>
   <div id="startView">
     <h1>
       <img src="./assets/images/draw_logo_tokyo.png" alt="draw-logo-tokyo" />
     </h1>
-    <div class="description">
+    <div id="description">
       <p>Audio/Visual Event <b>"draw();"</b> at Tokyo 2024/2</p>
       <ul class="social">
         <li>
@@ -172,4 +172,4 @@
     </p>
     <p>Copyright © draw(); All Rights Reserved.</p>
   </footer>
-</body>
+</div>

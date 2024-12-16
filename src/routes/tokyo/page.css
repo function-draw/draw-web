@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#page_tokyo {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Jost", Roboto, "M PLUS 1p", "Hiragino Kaku Gothic Pro",
+        "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", YuGothic, "MS PGothic",
+        Osaka, arial, sans-serif;
+}
+
+#page_tokyo a {
+    color: white;
+    text-decoration: none;
+}
+
+#page_tokyo a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#page_tokyo b {
+    font-weight: 500;
+}
+
+#page_tokyo #video {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: fixed;
+    z-index: -2;
+    overflow: hidden;
+}
+
+#page_tokyo #wrapper {
+    background: url("https://function-draw.com/assets/images/bg_trans.png") repeat;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#page_tokyo .navi_map {
+    border: 0;
+}
+
+#page_tokyo #startView {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#page_tokyo h1 {
+    padding-top: 20vh;
+    text-align: center;
+}
+
+#page_tokyo h1 img {
+    display: block;
+    margin: auto;
+}
+
+#page_tokyo #description {
+    width: 600px;
+    background-color: rgba(10, 10, 10, 0.8);
+    padding: 0.5%;
+    margin: 10vh auto;
+    border-radius: 6px;
+}
+
+#page_tokyo #description p {
+    text-align: center;
+}
+
+#page_tokyo .social {
+    margin: 0 auto;
+    width: 60%;
+    opacity: 0.9;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+#page_tokyo .social li {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    list-style: none;
+}
+
+#page_tokyo .social li p {
+    margin: 2% 0 10% 0;
+    font-size: 12pt;
+}
+
+#page_tokyo .social li p img {
+    height: 40px;
+}
+
+#page_tokyo .about {
+    width: 500px;
+    background-color: rgba(10, 10, 10, 0.8);
+    padding: 0.5%;
+    margin: 4% auto 0 auto;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#page_tokyo .about p:first-child {
+    font-size: 18pt;
+}
+
+#page_tokyo .about p {
+    line-height: 40%;
+    font-size: 13pt;
+}
+
+#page_tokyo .about iframe {
+    width: 450px;
+    height: 450px;
+    filter: grayscale(50%) invert(92%) contrast(83%);
+}
+
+#page_tokyo .about_description {
+    margin: 2% 0 2% 0;
+    display: inline-block;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+}
+
+#page_tokyo .about .annotation {
+    padding: 0 0 2% 0;
+    font-size: 11pt !important;
+}
+
+#page_tokyo .about .caution {
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: left;
+    width: 70%;
+    background-color: rgba(39, 39, 39, 0.8);
+    color: #f79999;
+    padding: 2%;
+    margin: 3% auto;
+    border-radius: 6px;
+}
+
+#page_tokyo .performer {
+    width: 500px;
+    background-color: rgba(10, 10, 10, 0.8);
+    padding: 0.5%;
+    margin: 4% auto 4% auto;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#page_tokyo .performer p:first-child {
+    font-size: 18pt;
+}
+
+#page_tokyo .performer .role {
+    margin: 0;
+    font-size: 13pt;
+}
+
+#page_tokyo .performer .name {
+    margin: 0 0 2% 0;
+    font-weight: 500;
+    font-size: 14pt;
+}
+
+#page_tokyo footer {
+    padding: 2% 0 0 0;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1),
+        rgba(15, 15, 15, 0.2)
+    );
+    text-align: center;
+}
+
+#page_tokyo footer p {
+    margin: 0;
+}
+
+#page_tokyo footer p:first-child {
+    margin-bottom: 1%;
+}
+
+#page_tokyo footer p:first-child img {
+    width: 8%;
+}
+
+#page_tokyo footer p:last-child {
+    padding-bottom: 1%;
+}
+
+#page_tokyo #about, #performer {
+    padding-top: 1px;
+}
+
+@media (max-height: 520px) {
+    #page_tokyo #startView {
+        margin: 0;
+        padding: 0;
+        height: 520px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #page_tokyo footer p:first-child img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 760px) {
+    #page_tokyo h1 {
+        padding-top: 15vh;
+    }
+
+    #page_tokyo h1 img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    #page_tokyo #description {
+        width: 80%;
+    }
+
+    #page_tokyo .social {
+        width: 90%;
+    }
+
+    #page_tokyo .social li p {
+        margin: 2% 0 20% 0;
+        font-size: 11pt;
+    }
+
+    #page_tokyo .about {
+        width: 80%;
+    }
+
+    #page_tokyo .about p {
+        font-size: 11pt;
+    }
+
+    #page_tokyo .about_description {
+        font-size: 10pt !important;
+        line-height: 1.5 !important;
+    }
+    
+    #page_tokyo .about .caution {
+        width: 85%;
+    }
+
+    #page_tokyo .about iframe {
+        width: 90%;
+        height: 400px;
+        filter: grayscale(50%) invert(92%) contrast(83%);
+    }
+
+    #page_tokyo .performer {
+        width: 80%;
+    }
+
+    #page_tokyo footer p {
+        font-size: 10pt;
+    }
+
+    #page_tokyo footer p:first-child img {
+        width: 120px;
+    }
+}
