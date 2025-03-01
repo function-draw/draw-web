@@ -14,7 +14,7 @@
 
 <svelte:head>
   <meta charset="utf-8" />
-  <title>draw(Tokyo);</title>
+  <title>draw(tokyo); #2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="keywords" content="" />
   <meta name="description" content="" />
