@@ -62,7 +62,7 @@
       <img src="./assets/images/draw_logo_tokyo.png" alt="draw-logo-tokyo" />
     </h1>
     <div id="description">
-      <p>Audio/Visual Event <b>"draw(); #3"</b> <br> at <b>clubasia</b> 2025/10/12 daytime</p>
+      <p>Audio/Visual Event <b>"draw(); #3"</b> <br> at <b>clubasia</b>, Shibuya, Tokyo <br> 2025/10/12 daytime <br><br><br> Comming soon...</p>
     </div>
     <footer>
       <p>Copyright © draw(); All Rights Reserved.</p>
