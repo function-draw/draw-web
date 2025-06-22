@@ -1,0 +1,148 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+#page_tokyo3 .canvas_bg {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+}
+
+#page_tokyo3 .canvas_bg_fallback {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vh;
+    height: 100vh;
+    background-image: url("./assets/images/draw_tokyo3_bg.png");
+    background-size: cover;
+}
+
+#page_tokyo3 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Jost", Roboto, "M PLUS 1p", "Hiragino Kaku Gothic Pro",
+        "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", YuGothic, "MS PGothic",
+        Osaka, arial, sans-serif;
+}
+
+#page_tokyo3 a {
+    color: white;
+    text-decoration: none;
+}
+
+#page_tokyo3 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#page_tokyo3 b {
+    font-weight: 500;
+}
+
+#page_tokyo3 .navi_map {
+    border: 0;
+}
+
+#page_tokyo3 #startView {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#page_tokyo3 h1 {
+    padding-top: 20vh;
+    text-align: center;
+}
+
+#page_tokyo3 h1 img {
+    display: block;
+    margin: auto;
+}
+
+#page_tokyo3 #description {
+    width: 900px;
+    /* background-color: rgba(10, 10, 10, 0.8); */
+    padding: 0% 0.5% 0.5%;
+    margin: 0vh auto 20vh;
+    border-radius: 6px;
+}
+
+#page_tokyo3 #description p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+#page_tokyo3 #description #attention_text {
+    margin-top: 0.5vh;
+    font-size: 1.75vh;
+}
+
+#page_tokyo3 footer {
+    padding: 2% 0 0 0;
+    text-align: center;
+}
+
+#page_tokyo3 footer p {
+    margin: 0;
+}
+
+#page_tokyo3 footer p:first-child {
+    margin-bottom: 1%;
+}
+
+#page_tokyo3 footer p:first-child img {
+    width: 8%;
+}
+
+#page_tokyo3 footer p:last-child {
+    padding-bottom: 1%;
+}
+
+@media (max-height: 520px) {
+    #page_tokyo3 #startView {
+        margin: 0;
+        padding: 0;
+        height: 520px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #page_tokyo3 footer p:first-child img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 760px) {
+    #page_tokyo3 h1 {
+        padding-top: 15vh;
+    }
+
+    #page_tokyo3 h1 img {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    #page_tokyo3 #description {
+        width: 80%;
+    }
+
+    #page_tokyo3 footer p {
+        font-size: 10pt;
+    }
+
+    #page_tokyo3 footer p:first-child img {
+        width: 120px;
+    }
+}
