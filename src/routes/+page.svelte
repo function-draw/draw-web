@@ -24,9 +24,14 @@
   <meta name="keywords" content="">
   <meta name="description" content="">
   <title>draw();</title>
-  <link rel="icon" href="./assets/images/draw_favicon.webp">
-  <link rel="apple-touch-icon" href="./assets/images/draw_favicon.webp" sizes="128x128">
-  <link rel="icon" type="image/png" href="./assets/images/draw_favicon.webp" sizes="128x128">
+  <link rel="icon" href="./assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="./assets/images/favicon.png" sizes="128x128" />
+  <link
+    rel="icon"
+    type="image/png"
+    href="./assets/images/favicon.png"
+    sizes="128x128"
+  />
   <!-- OGP Settings -->
   <meta property="og:url" content="https://function-draw.com/">
   <meta property="og:title" content="draw();">
