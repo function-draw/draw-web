@@ -1,0 +1,60 @@
+#page_tokyo2 > .top_ini {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.92);
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    /* animation */
+    opacity: 1.0;
+}
+
+#page_tokyo2 > .top_ini > .title { 
+    width: 100%;
+}
+
+#page_tokyo2 > .top_ini > .title > img { 
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#page_tokyo2 > .top_ini > .title > p { 
+    font-family: "jost";
+    font-weight: 400;
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#page_tokyo2 #about {
+    /* animation */
+    opacity: 0.0;
+}
+
+#header .left {
+    /* animation */
+    transform: translateX(-209px);
+}
+
+#header .left > .draw_logo {
+    /* animation */
+    opacity: 0;
+}
+
+#page_tokyo2 > .top_ini > .title { 
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    #page_tokyo2 > .top_ini > .title > img { 
+        width: 250px;
+    }
+    #page_tokyo2 > .top_ini > .title > p { 
+        font-size: 0.9em;
+    }    
+}
