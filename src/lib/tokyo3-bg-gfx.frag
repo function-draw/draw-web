@@ -93,12 +93,12 @@ void main()
 
     float t = globalTime * 0.5;
 
-    float rnd = step(pcg3df(vec3(ip, floor(t))).x, 0.1);
-    float rndNext = step(pcg3df(vec3(ip, floor(t)+1.0)).x, 0.1);
+    float rnd = step(pcg3df(vec3(ip, floor(t))).x, 0.2);
+    float rndNext = step(pcg3df(vec3(ip, floor(t)+1.0)).x, 0.2);
     rnd = mix(rnd, rndNext, easeOutExpo(fract(t)));
 
 
-    col = mix(col, 1.0-col, rnd);
+    col = mix(col, fract(col*10.0), rnd);
 
     col *= step(length(fp), 0.5);
     col += 0.065;
