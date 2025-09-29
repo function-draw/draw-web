@@ -101,6 +101,7 @@ void main()
     col = mix(col, 1.0-col, rnd);
 
     col *= step(length(fp), 0.5);
+    col += 0.045;
 
     gl_FragColor = vec4(col, 1.0);
 }
