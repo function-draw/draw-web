@@ -87,7 +87,7 @@ void main()
     vec3 col = vec3(nn);
     col = 0.4 < nn && nn < 0.5 ? vec3(0.65, 0.85, 0.85) : col;
 
-    float size = 1.25;
+    float size = 1.5;
     vec2 fp = fract(p2*size)-0.5;
     vec2 ip = floor(p2*size)-0.5;
 
@@ -100,8 +100,8 @@ void main()
 
     col = mix(col, 1.0-col, rnd);
 
-    col *= step(length(fp), 0.5);
-    col += 0.085;
+    col *= step(length(fp), 0.475);
+    col += 0.065;
 
     gl_FragColor = vec4(col, 1.0);
 }
