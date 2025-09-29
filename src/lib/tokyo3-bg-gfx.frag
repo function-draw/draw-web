@@ -87,11 +87,11 @@ void main()
     vec3 col = vec3(nn);
     col = 0.4 < nn && nn < 0.5 ? vec3(0.65, 0.85, 0.85) : col;
 
-    float size = 6.0;
+    float size = 4.0;
     vec2 fp = fract(p2*size)-0.5;
     vec2 ip = floor(p2*size)-0.5;
 
-    float t = globalTime * 0.75;
+    float t = globalTime * 0.5;
 
     float rnd = step(pcg3df(vec3(ip, floor(t))).x, 0.1);
     float rndNext = step(pcg3df(vec3(ip, floor(t)+1.0)).x, 0.1);
