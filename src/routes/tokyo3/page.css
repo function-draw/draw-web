@@ -1,148 +1,446 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  overflow: hidden;
+/* ブラウザ毎に勝手についてるのでリセット必須 resetcssみたいなの使うのもありかも？りくぴ*/
+p, img, h1, h2, h3, h4, h5, a{
+    padding: 0;
+    margin: 0;
 }
 
-#page_tokyo3 .canvas_bg {
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vh;
-    height: 100vh;
+#page_tokyo3 {
+    color: #D9D9D9;
+    font-family: "IBM Plex Sans JP", sans-serif; /*デフォルトフォントセット　Jostは適時入れていくこと*/
 }
 
-#page_tokyo3 .canvas_bg_fallback {
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    left: 0;
+html, body, #page_tokyo3 {
     width: 100%;
     height: 100%;
-    background-image: url("https://function-draw.com/assets/images/draw_tokyo3_bg.png");
-    /* background-size: cover; */
+    scroll-behavior: smooth;
+}
+
+#page_tokyo3 > img {
+    width: 100%;
+    height: 100%;
 }
 
 #page_tokyo3 {
     margin: 0;
     padding: 0;
-    color: white;
-    font-family: "Jost", Roboto, "M PLUS 1p", "Hiragino Kaku Gothic Pro",
-        "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, "游ゴシック Medium",
-        "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", YuGothic, "MS PGothic",
-        Osaka, arial, sans-serif;
+    position: absolute;
 }
 
-#page_tokyo3 a {
-    color: white;
-    text-decoration: none;
+#page_tokyo3 .canvas_bg {
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://function-draw.com/assets/images/tokyo3/dtk3-background.webp");
 }
 
-#page_tokyo3 a:visited {
-    color: white;
-    text-decoration: none;
+#page_tokyo3 > .root_top {
+    height: 100%;
+    width: 100%;
+    margin-top: 1.5%;
+    display: flex;
+    align-items: center;
 }
 
-#page_tokyo3 b {
+#page_tokyo3 #about {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.92);
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#page_tokyo3 .contents {
+    height: 100%;
+    width: 50%;
+}
+
+#page_tokyo3 .contents > .title {
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+}
+
+#page_tokyo3 .contents > .title > img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 140px;
+}
+
+#page_tokyo3 .contents > .title > h1 { 
+    margin: 0 auto;
+    display: block;
+    font-size: 1.6em;
+    font-family: "Jost";
+    font-weight: 400;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#page_tokyo3 .contents > .description{
+    margin: 0 auto;
+    width: 80%;
+    height: 50%;
+}
+
+#page_tokyo3 .contents > .description > p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding-top: 20px;
+}
+
+#page_tokyo3 .capture_pc {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#page_tokyo3 .capture_pc > img {
+    height: 90%;
+    width: 80%;
+    object-fit: cover;
+}
+
+#page_tokyo3 #performer .root_content, #location .root_content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#page_tokyo3 #performer .root_content .title, #location .root_content .title {
+    font-family: 'jost';
     font-weight: 500;
+    font-size: 2.0em;
 }
 
-#page_tokyo3 .navi_map {
+#page_tokyo3 #performer .root_content .block  {
+    height: 25px;
+}
+
+#page_tokyo3 #performer {
+    width: 850px;
+    background-color: rgba(0, 0, 0, 0.92);
+    margin: 0 0 0 auto;
+}
+
+#page_tokyo3 #performer > .description {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#page_tokyo3 #performer > .description > p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+#page_tokyo3 #performer .border, #location .border {
+    width: 95%;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#page_tokyo3 #performer .content > .text {
+    font-family: "jost";
+    font-weight: 500;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4em;
+}
+
+#page_tokyo3 .time_table {
+    font-size: 0.9em;
+    margin-top: 2.5%;
+    margin-bottom: 0%;
+    margin-right: 5%;
+    text-align: right;
+    padding-bottom: 5%;
+}
+
+#page_tokyo3 .white_box {
+    font-family: jost;
+    font-weight: 500;
+    width: 88%;
+    color: black;
+    background-color: #D9D9D9;
+    margin: 0 auto;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#page_tokyo3 .black_box {
+    font-family: jost;
+    font-weight: 500;
+    font-style: italic;
+    width: 25%;
+    border-color: #D9D9D9;
+    border: 2px solid;
+    background-color: black;
+    border-radius: 30px;
+    margin: 1% auto 1% 2.5%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#location {
+    width: 850px;
+    background-color: rgba(0, 0, 0, 0.92);
+    margin: 200px auto 200px 0;
+}
+
+#location .root_content .block  {
+    height: 25px;
+    transform: rotateY(3.142rad);
+}
+
+#location iframe {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto 6% 10%;
+    filter: grayscale(50%) invert(92%) contrast(83%);
+}
+
+#location .location_text {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#location .day_text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.0em;
+    padding-bottom: 10px;
+}
+
+#location .caution {
+    width: 85%;
+    background-color: #171717;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+#location .caution p {
+    padding: 2.5%;
+    font-size: 0.9em;
+    line-height: 1.3;
+}
+
+#location .caution .green {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #C7FF6D;
+}
+
+#location .caution .red {
+    margin-top: 0;
+    padding-top: 0;
+    color: #FF5659;
+}
+
+#location > .map_text {
+    margin: 0 auto;
+    width: 85%;
+    font-size: 1.4em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navi_map {
+    z-index: 1;
     border: 0;
 }
 
-#page_tokyo3 #startView {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-}
-
-#page_tokyo3 h1 {
-    padding-top: 20vh;
-    text-align: center;
-}
-
-#page_tokyo3 h1 img {
-    display: block;
-    margin: auto;
-}
-
-#page_tokyo3 #description {
-    width: 900px;
-    /* background-color: rgba(10, 10, 10, 0.8); */
-    padding: 0% 0.5% 0.5%;
-    margin: 0vh auto 20vh;
-    border-radius: 6px;
-}
-
-#page_tokyo3 #description p {
-    margin-bottom: 0;
-    text-align: center;
-    font-size: 2.5vh;
-}
-
-#page_tokyo3 #description #attention_text {
-    margin-top: 0.5vh;
-    font-size: 1.75vh;
-}
-
 #page_tokyo3 footer {
-    padding: 2% 0 0 0;
+    padding-top: 20px;
+    background-color: black;
     text-align: center;
 }
-
+#page_tokyo3 footer p img {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    padding-bottom: 20px;
+}
 #page_tokyo3 footer p {
-    margin: 0;
+    font-family: 'jost';
 }
 
-#page_tokyo3 footer p:first-child {
-    margin-bottom: 1%;
-}
-
-#page_tokyo3 footer p:first-child img {
-    width: 8%;
-}
-
-#page_tokyo3 footer p:last-child {
-    padding-bottom: 1%;
-}
-
-@media (max-height: 520px) {
-    #page_tokyo3 #startView {
-        margin: 0;
-        padding: 0;
-        height: 520px;
+@media (min-width: 2000px) {
+    #page_tokyo3 #performer {
+        padding-right: 10%;
+    }
+    #location {
+        padding-left: 10%;
     }
 }
 
+/* 横依存 */
+@media (max-width: 1625px) {
+    #page_tokyo3 .contents > .title > img {
+        width: 400px;
+        padding-top: 150px;
+    }
+    #page_tokyo3 .contents > .title > h1 { 
+        font-size: 1.3em;
+    }
+    #page_tokyo3 .contents > .description > p {
+        font-size: 1.1em;
+        line-height: 1.4em;
+    }
+}
+
+/* 横依存 */
+@media (max-width: 1340px) {
+    #page_tokyo3 .contents > .title > img {
+        width: 360px;
+        padding-top: 180px;
+    }
+    #page_tokyo3 .contents > .title > h1 { 
+        font-size: 1.1em;
+    }
+    #page_tokyo3 .contents > .description > p {
+        font-size: 1.0em;
+        line-height: 1.3em;
+    }
+}
+
+
+/* 高さ依存 */
+@media (max-height: 950px) {
+
+    #page_tokyo3 > .root_top {
+        margin-top: 3%;
+    }
+
+    #page_tokyo3 #about {
+        height: 600px;
+    }
+    #page_tokyo3 .contents > .title > img {
+        padding-top: 80px;
+    }
+    #page_tokyo3 .contents > .description > p {
+        font-size: 1.1em;
+        line-height: 1.4em;
+        padding-top: 20px;
+    }
+}
+
+@media (max-height: 725px) {
+    #page_tokyo3 > .root_top {
+        height: 725px;
+        margin-top: 2%;
+    }
+}
+
+/* スマホ依存 */
 @media (max-width: 1000px) {
-    #page_tokyo3 footer p:first-child img {
-        width: 200px;
+    #page_tokyo3 > .root_top {
+        margin-top: 80px;
+        height: calc(100vh - 80px);
+    }
+    #page_tokyo3 #about{
+        flex-direction: column;
+        height: 100%;
+    }
+    #page_tokyo3 .contents {
+        width: 100%;
+        height: auto;
+    }
+    #page_tokyo3 .contents > .title {
+        width: 100%;
+        height: auto;
+    }
+    #page_tokyo3 .contents > .title > img {
+        width: 60%;
+        padding-top: 40px;
+    }
+    #page_tokyo3 .contents > .title > h1 { 
+        width: 100%;
+        font-size: 1.0em;
+    }
+    #page_tokyo3 .contents > .description > p {
+        font-size: 1.0em;
+        line-height: 1.2em;
+        padding-top: 20px;
+    }
+    #page_tokyo3 .capture_pc {
+        width: 100%;
+    }
+    #page_tokyo3 #performer {
+        margin-top: 100px;
+        width: 90%;
+    }
+    #page_tokyo3 .black_box {
+        width: 25%;
+        margin: 1% auto 1% 0;
+    }
+    #page_tokyo3 #performer .root_content .title, #location .root_content .title {
+        font-size: 1.7em;
+    }
+    #page_tokyo3 #performer > .description > p {
+        font-size: 1.0em;
+        line-height: 1.4em;
+    }
+    #page_tokyo3 #performer .content > .text {
+        width: 95%;
+        font-size: 1.2em;
+    }
+    #page_tokyo3 .time_table {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 0.8em;
+        text-align: left;
+    }    
+    #location {
+        margin: 100px auto 100px 0;
+        width: 90%;
+    }
+    #location .location_text {
+        width: 85%;
+        font-size: 1.3em;
+    }
+    #location .day_text {
+        font-size: 0.9em;
+    }
+    #location .caution p {
+        font-size: 0.8em;
+        line-height: 1.3;
+    }
+
+    #location > .map_text {
+        width: 85%;
+        font-size: 1.2em;
+    }
+    
+    #page_tokyo3 footer p img {
+        margin: 0 auto;
+        display: block;
+        width: 150px;
+        padding-bottom: 20px;
+    }
+    #page_tokyo3 footer .copyright{
+        padding-bottom: 10px;
+        font-size: 0.9em;
     }
 }
-
-@media (max-width: 760px) {
-    #page_tokyo3 h1 {
-        padding-top: 15vh;
-    }
-
-    #page_tokyo3 h1 img {
-        width: 80%;
-        display: block;
-        margin: auto;
-    }
-
-    #page_tokyo3 #description {
-        width: 80%;
-    }
-
-    #page_tokyo3 footer p {
-        font-size: 10pt;
-    }
-
-    #page_tokyo3 footer p:first-child img {
-        width: 120px;
+@media (max-width: 950px) {
+    #page_tokyo3 .contents > .title > h1 { 
+        font-size: 0.9em;
     }
 }

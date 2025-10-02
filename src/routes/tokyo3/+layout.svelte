@@ -1,90 +1,44 @@
+<script lang="ts">
+  // @ts-nocheck
+  import './layout.css'
+  import { onMount } from "svelte";
+  onMount(() => {
+  });
+</script>
+
 <!-- header -->
-<!-- <div id="layout_tokyo">
-  <div class="header">
-    <ul>
-      <li>
-        <p>
-          <a href="#startView"><img src="./assets/images/draw_logo_tokyo.png" alt="logo" /></a
-          >
-        </p>
-      </li>
-      <li>
-        <p><a href="#about"> ABOUT</a></p>
-      </li>
-      <li>
-        <p><a href="#performer">PERFORMER</a></p>
-      </li>
-      <li>
-        <p><a href="/">draw(); WEBSITE</a></p>
-      </li>
-    </ul>
+<div id="layout-tokyo3">
+  <div id="header">
+    <!-- left -->
+    <div class="left">
+      <img src="./assets/images/draw_logo_tokyo.png" alt="logo" class="draw_logo"/>
+      <a href="#about">about</a>
+      <a href="#performer">performers</a>
+      <a href="#location">location</a>
+    </div>
+      
+    <!-- right -->
+    <div class="right">
+      <p><a href="/" class="draw_link">draw(); Website</a></p>
+      <div class="border"></div>
+      <a href="https://twitter.com/function_draw" target="_blank"><img src="./assets/images/sns_icons/X_logo_2023.svg" alt="draw-X-logo-2023"/></a>
+      <a href="https://www.twitch.tv/function_draw" target="_blank"><img src="./assets/images/sns_icons/TwitchGlitchWhite.svg" alt="twitch"/></a>
+      <a href="https://draw-tokyo3.peatix.com/" target="_blank"><img src="./assets/images/sns_icons/ticket.png" alt="ticket"/></a>
+    </div>
   </div>
-</div> -->
-
+</div> 
+  
 <slot />
-
+  
 <style>
-  #layout_tokyo {
+  #layout-tokyo3 {
     margin: 0;
     padding: 0;
-    background-color: black;
     color: white;
     font-family: "Jost", Roboto, "M PLUS 1p", "Hiragino Kaku Gothic Pro",
       "ヒラギノ角ゴ Pro W3", Meiryo, メイリオ, "游ゴシック Medium",
       "Yu Gothic Medium", "游ゴシック体", "Yu Gothic", YuGothic, "MS PGothic",
       Osaka, arial, sans-serif;
   }
-
-  #layout_tokyo .header {
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-    top: 0;
-    background-image: linear-gradient(
-      0deg,
-      rgba(85, 85, 85, 0.15),
-      rgba(0, 0, 0, 1)
-    );
-  }
-  #layout_tokyo .header ul {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 600px;
-    height: 50px;
-    margin: 0 auto;
-    padding: 0;
-  }
-
-  #layout_tokyo .header li {
-    vertical-align: middle;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-    list-style: none;
-  }
-
-  #layout_tokyo .header li p {
-    font-size: 13pt;
-    font-weight: 500;
-    position: relative;
-    text-align: center;
-  }
-
-  #layout_tokyo .header li p img {
-    position: absolute;
-    top: -8px;
-    left: 36px;
-    width: 60%;
-  }
-
-  #layout_tokyo a {
-    color: white;
-    text-decoration: none;
-  }
-
-  #layout_tokyo a:visited {
-    color: white;
-    text-decoration: none;
-  }
 </style>
+  
