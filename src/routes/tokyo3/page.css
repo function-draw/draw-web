@@ -4,45 +4,37 @@ p, img, h1, h2, h3, h4, h5, a{
     margin: 0;
 }
 
-#page_tokyo2 {
+#page_tokyo3 {
     color: #D9D9D9;
     font-family: "IBM Plex Sans JP", sans-serif; /*デフォルトフォントセット　Jostは適時入れていくこと*/
 }
 
-html, body, #page_tokyo2 {
+html, body, #page_tokyo3 {
     width: 100%;
     height: 100%;
     scroll-behavior: smooth;
 }
 
-#page_tokyo2 > img {
+#page_tokyo3 > img {
     width: 100%;
     height: 100%;
 }
 
-#page_tokyo2 {
+#page_tokyo3 {
     margin: 0;
     padding: 0;
     position: absolute;
 }
 
-#page_tokyo2 .canvas_bg {
+#page_tokyo3 .canvas_bg {
     z-index: -1;
     position: fixed;
     width: 100%;
     height: 100%;
+    background-image: url("https://function-draw.com/assets/images/tokyo3/dtk3-background.webp");
 }
 
-#page_tokyo2 .canvas_bg_fallback {
-    z-index: -1;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-image: url("https://function-draw.com/assets/images/tokyo2/bg.jpg");
-    background-size: 250%;
-}
-
-#page_tokyo2 > .root_top {
+#page_tokyo3 > .root_top {
     height: 100%;
     width: 100%;
     margin-top: 1.5%;
@@ -50,7 +42,7 @@ html, body, #page_tokyo2 {
     align-items: center;
 }
 
-#page_tokyo2 #about {
+#page_tokyo3 #about {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.92);
     height: 750px;
@@ -59,25 +51,25 @@ html, body, #page_tokyo2 {
     align-items: center;
 }
 
-#page_tokyo2 .contents {
+#page_tokyo3 .contents {
     height: 100%;
     width: 50%;
 }
 
-#page_tokyo2 .contents > .title {
+#page_tokyo3 .contents > .title {
     margin: 0 auto;
     width: 80%;
     height: 50%;
 }
 
-#page_tokyo2 .contents > .title > img {
+#page_tokyo3 .contents > .title > img {
     display: block;
     margin: 0 auto;
     width: 500px;
     padding-top: 140px;
 }
 
-#page_tokyo2 .contents > .title > h1 { 
+#page_tokyo3 .contents > .title > h1 { 
     margin: 0 auto;
     display: block;
     font-size: 1.6em;
@@ -87,19 +79,19 @@ html, body, #page_tokyo2 {
     padding-top: 10px;
 }
 
-#page_tokyo2 .contents > .description{
+#page_tokyo3 .contents > .description{
     margin: 0 auto;
     width: 80%;
     height: 50%;
 }
 
-#page_tokyo2 .contents > .description > p {
+#page_tokyo3 .contents > .description > p {
     font-size: 1.3em;
     line-height: 1.5em;
     padding-top: 20px;
 }
 
-#page_tokyo2 .capture_pc {
+#page_tokyo3 .capture_pc {
     width: 50%;
     height: 100%;
     display: flex;
@@ -107,13 +99,13 @@ html, body, #page_tokyo2 {
     justify-content: space-around;
 }
 
-#page_tokyo2 .capture_pc > img {
+#page_tokyo3 .capture_pc > img {
     height: 90%;
     width: 80%;
     object-fit: cover;
 }
 
-#page_tokyo2 #performer .root_content, #location .root_content{
+#page_tokyo3 #performer .root_content, #location .root_content{
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -122,35 +114,35 @@ html, body, #page_tokyo2 {
     padding-top: 10px;
 }
 
-#page_tokyo2 #performer .root_content .title, #location .root_content .title {
+#page_tokyo3 #performer .root_content .title, #location .root_content .title {
     font-family: 'jost';
     font-weight: 500;
     font-size: 2.0em;
 }
 
-#page_tokyo2 #performer .root_content .block  {
+#page_tokyo3 #performer .root_content .block  {
     height: 25px;
 }
 
-#page_tokyo2 #performer {
+#page_tokyo3 #performer {
     width: 850px;
     background-color: rgba(0, 0, 0, 0.92);
     margin: 0 0 0 auto;
 }
 
-#page_tokyo2 #performer > .description {
+#page_tokyo3 #performer > .description {
     width: 90%;
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-#page_tokyo2 #performer > .description > p {
+#page_tokyo3 #performer > .description > p {
     font-size: 1.1em;
     line-height: 1.3em;
 }
 
-#page_tokyo2 #performer .border, #location .border {
+#page_tokyo3 #performer .border, #location .border {
     width: 95%;
     height: 1px;
     background-color: #D9D9D9;
@@ -160,7 +152,7 @@ html, body, #page_tokyo2 {
     margin-right: 2.5%;
 }
 
-#page_tokyo2 #performer .content > .text {
+#page_tokyo3 #performer .content > .text {
     font-family: "jost";
     font-weight: 500;
     width: 90%;
@@ -168,7 +160,7 @@ html, body, #page_tokyo2 {
     font-size: 1.4em;
 }
 
-#page_tokyo2 .time_table {
+#page_tokyo3 .time_table {
     font-size: 0.9em;
     margin-top: 2.5%;
     margin-bottom: 0%;
@@ -177,7 +169,7 @@ html, body, #page_tokyo2 {
     padding-bottom: 5%;
 }
 
-#page_tokyo2 .white_box {
+#page_tokyo3 .white_box {
     font-family: jost;
     font-weight: 500;
     width: 88%;
@@ -189,7 +181,7 @@ html, body, #page_tokyo2 {
     font-size: 1.5em;
 }
 
-#page_tokyo2 .black_box {
+#page_tokyo3 .black_box {
     font-family: jost;
     font-weight: 500;
     font-style: italic;
@@ -274,23 +266,23 @@ html, body, #page_tokyo2 {
     border: 0;
 }
 
-#page_tokyo2 footer {
+#page_tokyo3 footer {
     padding-top: 20px;
     background-color: black;
     text-align: center;
 }
-#page_tokyo2 footer p img {
+#page_tokyo3 footer p img {
     margin: 0 auto;
     display: block;
     width: 200px;
     padding-bottom: 20px;
 }
-#page_tokyo2 footer p {
+#page_tokyo3 footer p {
     font-family: 'jost';
 }
 
 @media (min-width: 2000px) {
-    #page_tokyo2 #performer {
+    #page_tokyo3 #performer {
         padding-right: 10%;
     }
     #location {
@@ -300,14 +292,14 @@ html, body, #page_tokyo2 {
 
 /* 横依存 */
 @media (max-width: 1625px) {
-    #page_tokyo2 .contents > .title > img {
+    #page_tokyo3 .contents > .title > img {
         width: 400px;
         padding-top: 150px;
     }
-    #page_tokyo2 .contents > .title > h1 { 
+    #page_tokyo3 .contents > .title > h1 { 
         font-size: 1.3em;
     }
-    #page_tokyo2 .contents > .description > p {
+    #page_tokyo3 .contents > .description > p {
         font-size: 1.1em;
         line-height: 1.4em;
     }
@@ -315,14 +307,14 @@ html, body, #page_tokyo2 {
 
 /* 横依存 */
 @media (max-width: 1340px) {
-    #page_tokyo2 .contents > .title > img {
+    #page_tokyo3 .contents > .title > img {
         width: 360px;
         padding-top: 180px;
     }
-    #page_tokyo2 .contents > .title > h1 { 
+    #page_tokyo3 .contents > .title > h1 { 
         font-size: 1.1em;
     }
-    #page_tokyo2 .contents > .description > p {
+    #page_tokyo3 .contents > .description > p {
         font-size: 1.0em;
         line-height: 1.3em;
     }
@@ -332,17 +324,17 @@ html, body, #page_tokyo2 {
 /* 高さ依存 */
 @media (max-height: 950px) {
 
-    #page_tokyo2 > .root_top {
+    #page_tokyo3 > .root_top {
         margin-top: 3%;
     }
 
-    #page_tokyo2 #about {
+    #page_tokyo3 #about {
         height: 600px;
     }
-    #page_tokyo2 .contents > .title > img {
+    #page_tokyo3 .contents > .title > img {
         padding-top: 80px;
     }
-    #page_tokyo2 .contents > .description > p {
+    #page_tokyo3 .contents > .description > p {
         font-size: 1.1em;
         line-height: 1.4em;
         padding-top: 20px;
@@ -350,7 +342,7 @@ html, body, #page_tokyo2 {
 }
 
 @media (max-height: 725px) {
-    #page_tokyo2 > .root_top {
+    #page_tokyo3 > .root_top {
         height: 725px;
         margin-top: 2%;
     }
@@ -358,58 +350,58 @@ html, body, #page_tokyo2 {
 
 /* スマホ依存 */
 @media (max-width: 1000px) {
-    #page_tokyo2 > .root_top {
+    #page_tokyo3 > .root_top {
         margin-top: 80px;
         height: calc(100vh - 80px);
     }
-    #page_tokyo2 #about{
+    #page_tokyo3 #about{
         flex-direction: column;
         height: 100%;
     }
-    #page_tokyo2 .contents {
+    #page_tokyo3 .contents {
         width: 100%;
         height: auto;
     }
-    #page_tokyo2 .contents > .title {
+    #page_tokyo3 .contents > .title {
         width: 100%;
         height: auto;
     }
-    #page_tokyo2 .contents > .title > img {
+    #page_tokyo3 .contents > .title > img {
         width: 60%;
         padding-top: 40px;
     }
-    #page_tokyo2 .contents > .title > h1 { 
+    #page_tokyo3 .contents > .title > h1 { 
         width: 100%;
         font-size: 1.0em;
     }
-    #page_tokyo2 .contents > .description > p {
+    #page_tokyo3 .contents > .description > p {
         font-size: 1.0em;
         line-height: 1.2em;
         padding-top: 20px;
     }
-    #page_tokyo2 .capture_pc {
+    #page_tokyo3 .capture_pc {
         width: 100%;
     }
-    #page_tokyo2 #performer {
+    #page_tokyo3 #performer {
         margin-top: 100px;
         width: 90%;
     }
-    #page_tokyo2 .black_box {
+    #page_tokyo3 .black_box {
         width: 25%;
         margin: 1% auto 1% 0;
     }
-    #page_tokyo2 #performer .root_content .title, #location .root_content .title {
+    #page_tokyo3 #performer .root_content .title, #location .root_content .title {
         font-size: 1.7em;
     }
-    #page_tokyo2 #performer > .description > p {
+    #page_tokyo3 #performer > .description > p {
         font-size: 1.0em;
         line-height: 1.4em;
     }
-    #page_tokyo2 #performer .content > .text {
+    #page_tokyo3 #performer .content > .text {
         width: 95%;
         font-size: 1.2em;
     }
-    #page_tokyo2 .time_table {
+    #page_tokyo3 .time_table {
         margin: 0 auto;
         width: 80%;
         font-size: 0.8em;
@@ -436,19 +428,19 @@ html, body, #page_tokyo2 {
         font-size: 1.2em;
     }
     
-    #page_tokyo2 footer p img {
+    #page_tokyo3 footer p img {
         margin: 0 auto;
         display: block;
         width: 150px;
         padding-bottom: 20px;
     }
-    #page_tokyo2 footer .copyright{
+    #page_tokyo3 footer .copyright{
         padding-bottom: 10px;
         font-size: 0.9em;
     }
 }
 @media (max-width: 950px) {
-    #page_tokyo2 .contents > .title > h1 { 
+    #page_tokyo3 .contents > .title > h1 { 
         font-size: 0.9em;
     }
 }

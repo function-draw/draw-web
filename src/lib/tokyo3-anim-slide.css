@@ -1,4 +1,4 @@
-#page_tokyo2 > .top_ini {
+#page_tokyo3 > .top_ini {
     margin: 0;
     width: 100%;
     position: absolute;
@@ -11,11 +11,11 @@
     opacity: 1.0;
 }
 
-#page_tokyo2 > .top_ini > .title { 
+#page_tokyo3 > .top_ini > .title { 
     width: 100%;
 }
 
-#page_tokyo2 > .top_ini > .title > img { 
+#page_tokyo3 > .top_ini > .title > img { 
     display: block;
     margin: 0 auto;
     width: 600px;
@@ -23,7 +23,7 @@
     padding-bottom: 10px;
 }
 
-#page_tokyo2 > .top_ini > .title > p { 
+#page_tokyo3 > .top_ini > .title > p { 
     font-family: "jost";
     font-weight: 400;
     font-size: 1.8em;
@@ -31,7 +31,7 @@
     padding-bottom: 20px;
 }
 
-#page_tokyo2 #about {
+#page_tokyo3 #about {
     /* animation */
     opacity: 0.0;
 }
@@ -46,15 +46,15 @@
     opacity: 0;
 }
 
-#page_tokyo2 > .top_ini > .title { 
+#page_tokyo3 > .top_ini > .title { 
     width: 100%;
 }
 
 @media (max-width: 1000px) {
-    #page_tokyo2 > .top_ini > .title > img { 
+    #page_tokyo3 > .top_ini > .title > img { 
         width: 250px;
     }
-    #page_tokyo2 > .top_ini > .title > p { 
+    #page_tokyo3 > .top_ini > .title > p { 
         font-size: 0.9em;
     }    
 }

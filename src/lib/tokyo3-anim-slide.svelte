@@ -1,6 +1,6 @@
 <script lang="ts">
     // @ts-nocheck
-    import './tokyo2-anim-slide.css'
+    import './tokyo3-anim-slide.css'
 
     function easeOutQuint(x: number): number {
         return 1.0 - Math.pow(1.0 - x, 5.0);
@@ -21,9 +21,9 @@
             // 
             const layoutHeaderLogoDefaultValue = -209;
 
-            const domTokyo2 = document.getElementById("page_tokyo2");
+            const domTokyo3 = document.getElementById("page_tokyo3");
             // 初期状態で表示される要素
-            const domTopIni = domTokyo2?.getElementsByClassName("top_ini")[0];
+            const domTopIni = domTokyo3?.getElementsByClassName("top_ini")[0];
             // スクロールして表示される要素
             const domTopMain = document.getElementById("about");
             // ヘッダーのロゴ(スクロール表示)

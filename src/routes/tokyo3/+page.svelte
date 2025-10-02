@@ -58,9 +58,8 @@
   <meta name="twitter:site" content="@function_draw" />
 </svelte:head>
 
-<main id="page_tokyo2">
-  <!-- うにょうにょ背景 -->
-  <BgGfx />
+<main id="page_tokyo3">
+  <canvas class="canvas_bg"></canvas>
   <!-- スライドアニメーション適応 -->
   <AnimSlideElem />
 
@@ -97,9 +96,9 @@
     </div>
     <div class="border"></div>
     <div class="description">
-      <p>
-        　今回のdraw(tokyo); #3ではAudioはDJ、Live coding(GLSL,Sonic Pi等)、マシンライブ等を用いたLiveが行われ、VisualはLivecoding(GLSL等)、Notch、Unity、WebGL、TouchDesigner等を用いたVJが行われる予定である。
-      </p>
+      <!-- <p>
+        　draw(tokyo); #3ではDJ、マシンライブ、ジェネ系VJ、Ableton Live、Bitwig Studio、Shader Live Coding、Unity、openFrameworks、TouchDesigner、GLSL、Unreal Engine、WebGL等を用いたパフォーマンスが行われる予定である。
+      </p> -->
     </div>
     <p class="white_box">MainStage</p>
     <ul>
@@ -177,7 +176,7 @@
     <p class="location_text">clubasia（東京 渋谷区）</p>
     <p class="day_text">
       日付：2025年10月12日（日曜日）<br>
-      時間：12:00~21:00<br>
+      時間：12:50~20:30<br>
       ※演者、時間帯などの変更の可能性あり<br>
     </p>
     <div class="caution">

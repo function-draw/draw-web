@@ -7,7 +7,7 @@
 </script>
 
 <!-- header -->
-<div id="layout-tokyo2">
+<div id="layout-tokyo3">
   <div id="header">
     <!-- left -->
     <div class="left">
@@ -23,7 +23,7 @@
       <div class="border"></div>
       <a href="https://twitter.com/function_draw" target="_blank"><img src="./assets/images/sns_icons/X_logo_2023.svg" alt="draw-X-logo-2023"/></a>
       <a href="https://www.twitch.tv/function_draw" target="_blank"><img src="./assets/images/sns_icons/TwitchGlitchWhite.svg" alt="twitch"/></a>
-      <a href="https://draw-tokyo2.peatix.com/" target="_blank"><img src="./assets/images/sns_icons/ticket.png" alt="ticket"/></a>
+      <a href="https://draw-tokyo3.peatix.com/" target="_blank"><img src="./assets/images/sns_icons/ticket.png" alt="ticket"/></a>
     </div>
   </div>
 </div> 
@@ -31,7 +31,7 @@
 <slot />
   
 <style>
-  #layout-tokyo2 {
+  #layout-tokyo3 {
     margin: 0;
     padding: 0;
     color: white;
