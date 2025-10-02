@@ -6,7 +6,7 @@
     // documentがマウントされてから実行することを保証
     import { onMount } from "svelte";
   
-    const left_links = [["draw(tokyo); #2", "./tokyo2"], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
+    const left_links = [["draw(tokyo); #3", "./tokyo3"], ["X", "https://twitter.com/function_draw"], ["Twitch", "https://www.twitch.tv/function_draw"]];
     const right_links = [["Contact", "https://forms.gle/Nqdaeocg3NoUBDVj9"], ["#function_draw", "https://twitter.com/hashtag/function_draw?src=hashtag_click"], ["Youtube", "https://www.youtube.com/@function_draw"]];
     const images_pc = "./assets/images/top/draw_web_pc.png";
     const images_mobile = "./assets/images/top/draw_web_mobile.png";
