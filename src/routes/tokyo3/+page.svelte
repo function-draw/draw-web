@@ -146,7 +146,7 @@
       <div class="content">
         <p class="black_box">Live</p>
         <p class="text">
-          Yebisu303
+          sdhizumi
         </p>
       </div>
       <div class="content">
@@ -158,7 +158,7 @@
       <div class="content">
         <p class="black_box">VJ</p>
         <p class="text">
-          MEMEMIYA b2b 90n83i　さきやま　Shinya Kitajima　shiho　moka　Kakuya Shiraishi　甲斐ひろあき　Noi
+          MEMEMIYA b2b 90n83i　さきやま　Shinya Kitajima　nuskey　moka　Kakuya Shiraishi　甲斐ひろあき　Noi
         </p>
       </div>
     </ul>
