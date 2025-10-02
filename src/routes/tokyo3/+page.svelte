@@ -1,6 +1,5 @@
 <script lang="ts">
   // @ts-nocheck
-  import BgGfx from '$lib/tokyo3-bg-gfx.svelte';
   import AnimSlideElem from '$lib/tokyo3-anim-slide.svelte'
   import './page.css'
   import '../default.css'
