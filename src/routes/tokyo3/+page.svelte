@@ -152,7 +152,7 @@
       <div class="content">
         <p class="black_box">DJ</p>
         <p class="text">
-          けんじゃ　KBSNK　HB b2b suleiman.jp　MöBIUS　icesawder　maku693　Iceyveins
+          non　KBSNK　HB b2b suleiman.jp　MöBIUS　icesawder　maku693　Iceyveins
         </p>
       </div>
       <div class="content">
