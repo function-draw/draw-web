@@ -137,7 +137,7 @@
       <div class="content">
         <p class="black_box">VJ</p>
         <p class="text">
-          hacha　Masaru Tainaka　meloclide　Sigreni　sichemaniac
+          hacha　Masaru Tainaka　meloclide　sichemaniac　Sigreni
         </p>
       </div>
     </ul>
