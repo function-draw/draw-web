@@ -153,7 +153,7 @@
     <div class="border"></div>
     <p class="info_text">Location：CIRCUS TOKYO（東京 渋谷区）</p>
     <p class="day_text">
-      日付：2026年05月30日（日曜日）<br>
+      日付：2026年05月30日（土曜日）<br>
       時間：14:00~20:30<br><br>
 
       チケット販売サイトは<a class="green" href="https://draw-tokyo4.peatix.com/" target="_blank">こちら</a>！！<br>
