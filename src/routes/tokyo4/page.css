@@ -45,7 +45,7 @@ html, body, #page_tokyo4 {
 
 #page_tokyo4 #about {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(0, 0, 0, 0.83);
     height: 750px;
     display: flex;
     justify-content: space-around;
@@ -127,7 +127,7 @@ html, body, #page_tokyo4 {
 
 #page_tokyo4 #performer {
     width: 850px;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(0, 0, 0, 0.83);
     margin: 0 0 0 auto;
 }
 
@@ -198,7 +198,7 @@ html, body, #page_tokyo4 {
 
 #info {
     width: 850px;
-    background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(0, 0, 0, 0.83);
     margin: 200px auto 200px 0;
 }
 
