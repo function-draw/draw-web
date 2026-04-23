@@ -77,13 +77,14 @@ html, body, #page_tokyo4 {
     font-family: "Jost";
     font-weight: 400;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 #page_tokyo4 .contents > .description{
     margin: 0 auto;
     width: 80%;
     height: 50%;
+    padding-top: 10px;
 }
 
 #page_tokyo4 .contents > .description > p {
