@@ -104,7 +104,7 @@
       <div class="content">
         <p class="black_box">Live</p>
         <p class="text">
-          Chapa　Rui8bit　yoxtellar　0b5vr
+          0b5vr　Chapa Didgeridoo　Rui8bit　yoxtellar
         </p>
       </div>
       <div class="content">
@@ -116,7 +116,7 @@
       <div class="content">
         <p class="black_box">VJ</p>
         <p class="text">
-          Takeshi Funatsu　komakinex　butadiene　Renard　Rei8bit<br>gam0022 b2b kinankomoti　Saina b2b wonyu
+          butadiene　komakinex　Rei8bit　Renard　Takeshi Funatsu<br>gam0022 b2b kinankomoti　Saina b2b wonyu
         </p>
       </div>
     </ul>
@@ -131,13 +131,13 @@
       <div class="content">
         <p class="black_box">DJ</p>
         <p class="text">
-          けんじゃ　kenjung　sekizu1　nadeco
+          kenjung　nadeco　sekizu1　けんじゃ
         </p>
       </div>
       <div class="content">
         <p class="black_box">VJ</p>
         <p class="text">
-          sichemaniac　meloclide　Masaru Tainaka　Sigreni　hacha
+          hacha　Masaru Tainaka　meloclide　Sigreni　sichemaniac
         </p>
       </div>
     </ul>
@@ -156,7 +156,7 @@
       日付：2026年05月30日（日曜日）<br>
       時間：14:00~20:30<br><br>
 
-      チケット販売サイトは<a href="https://draw-tokyo4.peatix.com/" target="_blank">こちら</a>！！<br>
+      チケット販売サイトは<a class="green" href="https://draw-tokyo4.peatix.com/" target="_blank">こちら</a>！！<br>
       前売：3500円<br>
       当日：4000円<br><br>
       ※演者、時間帯などの変更の可能性あり

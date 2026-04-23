@@ -229,6 +229,12 @@ html, body, #page_tokyo4 {
     padding-bottom: 10px;
 }
 
+#info .green {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #C7FF6D;
+}
+
 #info .caution {
     width: 85%;
     background-color: #171717;
