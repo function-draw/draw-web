@@ -125,13 +125,13 @@
       <div class="content">
         <p class="black_box">Live</p>
         <p class="text">
-          suzukikeigo_
+          kenjung　suzukikeigo_
         </p>
       </div>
       <div class="content">
         <p class="black_box">DJ</p>
         <p class="text">
-          kenjung　nadeco　sekizu1　けんじゃ
+          nadeco　sekizu1　けんじゃ
         </p>
       </div>
       <div class="content">
