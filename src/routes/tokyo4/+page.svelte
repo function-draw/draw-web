@@ -104,7 +104,7 @@
       <div class="content">
         <p class="black_box">Live</p>
         <p class="text">
-          0b5vr　Chapa Didgeridoo　Rui8bit　yoxtellar
+          0b5vr　Chapa Didgeridoo　Rei8bit　yoxtellar
         </p>
       </div>
       <div class="content">
@@ -116,7 +116,7 @@
       <div class="content">
         <p class="black_box">VJ</p>
         <p class="text">
-          butadiene　komakinex　Rei8bit　Renard　Takeshi Funatsu<br>gam0022 b2b kinankomoti　Saina b2b wonyu
+          butadiene　komakinex　Rui8bit　Renard　Takeshi Funatsu<br>gam0022 b2b kinankomoti　Saina b2b wonyu
         </p>
       </div>
     </ul>
