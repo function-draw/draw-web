@@ -85,6 +85,6 @@
 <div class="top_ini">
     <div class="title">
       <img src="./assets/images/draw_logo_tokyo.png" alt="logo"/>
-      <p>Audio/Visual Event<b> "draw(tokyo); #4" </b>at Shibuya 2026/05/30</p>
+      <p>Audio/Visual Event<b> "draw(tokyo); #4" </b>at Shibuya 05/30</p>
     </div>
 </div>
