@@ -72,7 +72,7 @@
       <div class="contents">
         <div class="title">
           <img src="./assets/images/draw_logo_tokyo.png" alt="logo"/>
-          <h1>Audio/Visual Event <b>"draw(tokyo); #4"</b> at Shibuya 2026/05/30</h1>
+          <h1>Audio/Visual Event <b>"draw(tokyo); #4"</b> at Shibuya 05/30</h1>
         </div>
         <div class="description">
           <p>　draw(tokyo); はジェネラティブVJをコンセプトにしたオーディオビジュアルライブイベント draw(); のオフラインイベント。 draw(); は2022年9月に1回目のオンライン配信イベントが開催され、これまでにライブコーディングやマシンライブ、ジェネ系VJ、DJなどのライブパフォーマンスがVRChat、Twitch、オフライン会場で行われた。</p>
